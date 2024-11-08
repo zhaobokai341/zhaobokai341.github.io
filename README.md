@@ -1,20 +1,43 @@
-# zhaobokai341.github.io
-# 赵博凯日记
-
-## 工具
-
-### 浏览器
-
-[百度](https://www.baidu.com/) [msn](https://www.msn.cn/zh-cn) [抖音](https://www.douyin.com) [西瓜视频](https://www.ixigua.com)
-
-### 杀毒软件
-
-[360](https://www.360.cn/) [火绒](https://www.huorong.cn/) [企鹅电脑管家](https://guanjia.qq.com/)
-
-### 翻译
-
-[微软翻译](https://cn.bing.com/translator) [百度翻译](https://fanyi.baidu.com/mtpe-individual/multimodal#/) [有道翻译](https://fanyi.youdao.com/#/AITranslate)
-
-## 作品
-
-[触发蓝屏](file://D:/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%A7%A6%E5%8F%91%E8%93%9D%E5%B1%8F.exe) [翻译](file://D:/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/%E7%BF%BB%E8%AF%91.exe) [看我免费看VIP](file://D:/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/%E7%9C%8B%E6%88%91%E5%85%8D%E8%B4%B9%E7%9C%8BVIP.exe) [ASCII加密解密](file://D:/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/ASCII%E5%8A%A0%E5%AF%86%E8%A7%A3%E5%AF%86.exe)
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>赵博凯</title>
+    <style>
+        body{background-color:purple;}
+        #标题{font-size:60px;background-color:blue}
+        h2{font-size:30px;}
+        h3{font-size:20px;}
+        #yellow{background-color:yellow}
+    </style>
+</head>
+<body>
+<h1 id="标题">赵博凯日记</h1>
+<h2>工具</h2>
+<h3>浏览器</h3>
+<a href="https://www.baidu.com/" target="_blank">百度</a>
+<a href="https://www.msn.cn/zh-cn" target="_blank">msn</a>
+<a href="https://www.douyin.com" target="_blank">抖音</a>
+<a href="https://www.ixigua.com" target="_blank">西瓜视频</a>
+<br>
+<h3>杀毒软件</h3>
+<a href="https://www.360.cn/" target="_blank">360</a>
+<a href="https://www.huorong.cn/" target="_blank">火绒</a>
+<a href="https://guanjia.qq.com/" target="_blank">企鹅电脑管家</a>
+<br>
+<h3>翻译</h3>
+<a href="https://cn.bing.com/translator" target="_blank">微软翻译</a>
+<a href="https://fanyi.baidu.com/mtpe-individual/multimodal#/" target="_blank">百度翻译</a>
+<a href="https://fanyi.youdao.com/#/AITranslate" target="_blank">有道翻译</a>
+<h2>作品</h2>
+<a href="file://D:/新建文件夹/触发蓝屏.exe" target="_blank">触发蓝屏</a>
+<a href="file://D:/新建文件夹/翻译.exe" target="_blank">翻译</a>
+<a href="file://D:/新建文件夹/看我免费看VIP.exe" target="_blank">看我免费看VIP</a>
+<a href="file://D:/新建文件夹/ASCII加密解密.exe" target="_blank">ASCII加密解密</a>
+<h2 id="yellow">致谢</h2>
+<h3>作者：赵博凯</h3>
+<h3>付琳</h3>
+<h3>赵小军</h3>
+<h3>赵思妍</h3>
+</body>
+</html>
