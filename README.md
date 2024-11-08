@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -29,6 +28,14 @@
 <a href="https://cn.bing.com/translator" target="_blank">微软翻译</a>
 <a href="https://fanyi.baidu.com/mtpe-individual/multimodal#/" target="_blank">百度翻译</a>
 <a href="https://fanyi.youdao.com/#/AITranslate" target="_blank">有道翻译</a>
+<br>
+<h3>编程网站</h3>
+<a href="https://www.runoob.com" target="_blank">菜鸟编程</a>
+<a href="https://www.w3school.com.cn" target="_blank">w3school</a>
+<h3>其他</h3>
+<a href="https://www.tbtool.cn" target="_blank">图吧工具箱</a>
+<a href="https://getquicker.net" target="_blank">Quiker</a>
+<a href="https://u.tools" target="_blank">utools</a>   
 <h2>作品</h2>
 <a href="file://D:/新建文件夹/触发蓝屏.exe" target="_blank">触发蓝屏</a>
 <a href="file://D:/新建文件夹/翻译.exe" target="_blank">翻译</a>
@@ -39,5 +46,8 @@
 <h3>付琳</h3>
 <h3>赵小军</h3>
 <h3>赵思妍</h3>
+<h3>李翠兰</h3>
+<h3>赵素明</h3>
+<h3>武鑫岑</h3>
 </body>
 </html>
