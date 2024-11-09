@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1>日记</h1>
-<a>关于Githb</a>
+<a href="https://zhaobokai341.github.io/rijizhanlan/GitHub">关于Githb</a>
 </body>
 </html>
 
