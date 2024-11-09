@@ -24,6 +24,9 @@
 <br>
 <a href="https://zhaobokai341.github.io/gongju" style="font-size:30px;color:red;">查看更多</a>
 <h2>作品</h2>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/赵博凯下载器.exe">赵博凯下载器</a>
+<br>
+<a href="https://zhaobokai341.github.io/zuopin" style="font-size:30px;color:red;">查看更多</a>
 <h2>日记</h2>
 <h2 id="yellow">致谢</h2>
 <h3>作者：<a href="https://zhaobokai341.github.io/zhaobokai">赵博凯</a></h3>
