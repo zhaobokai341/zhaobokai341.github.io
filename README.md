@@ -31,7 +31,7 @@
 <br>
 <a href="https://zhaobokai341.github.io/zuopin" style="font-size:30px;color:red;">查看更多</a>
 <h2>日记</h2>
-<a href="https://zhaobokai341.github.io/zuopin" style="font-size:30px;color:red;">点击此处</a>
+<a href="https://zhaobokai341.github.io/riji" style="font-size:30px;color:red;">点击此处</a>
 <h2 id="yellow">致谢</h2>
 <h3>作者：<a href="https://zhaobokai341.github.io/zhaobokai">赵博凯</a></h3>
 <h3>付琳</h3>
