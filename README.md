@@ -32,10 +32,17 @@
 <h3>编程网站</h3>
 <a href="https://www.runoob.com" target="_blank">菜鸟编程</a>
 <a href="https://www.w3school.com.cn" target="_blank">w3school</a>
+<h3>编程</h3>
+<a href="https://www.scratchfoundation.org/">Scratch</a>
+<a href="https://www.python.org">Python</a>
+<a href="https://www.jetbrains.com.cn/">PyCharm</a>
+<a href="https://code.visualstudio.com/">VScode</a>
+<a href="https://visualstudio.microsoft.com/">Visual Studio</a>
 <h3>其他</h3>
 <a href="https://www.tbtool.cn" target="_blank">图吧工具箱</a>
 <a href="https://getquicker.net" target="_blank">Quiker</a>
 <a href="https://u.tools" target="_blank">utools</a>
+<a href="https://www.vmware.com/">VMware</a>
 <h2>作品</h2>
 <a href="file://D:/新建文件夹/触发蓝屏.exe" target="_blank">触发蓝屏</a>
 <a href="file://D:/新建文件夹/翻译.exe" target="_blank">翻译</a>
