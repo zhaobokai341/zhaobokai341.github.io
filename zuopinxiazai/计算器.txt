@@ -1,1 +1,40 @@
+#作者：赵博凯
+#语言：Python
+import tkinter as tk
+import math as m
+import tkinter.messagebox as tkbox
+
+win = tk.Tk()
+win['background'] = "lightblue"
+win.title("计算器")
+var = tk.StringVar()
+a = tk.Label(win, bg="green", textvariable=var)
+a.pack()
+var.set("输入算式，然后点击Enter键可查看计算结果\n“m”可以调用math模块")
+b = tk.Entry(win, fg="purple")
+b.pack()
+
+
+def enter():
+    get = b.get()
+    baocun = 1
+    try:
+        var.set(eval(get))
+    except Exception as e:
+        baocun = 0
+        tkbox.showerror(title="计算错误", message="详细错误信息：\n" + str(type(e)) + ":" + str(e))
+    if baocun == 1:
+        with open("D:\新建文件夹\计算器\历史记录.txt", "a+") as f:
+            f.write(get + "=" + str(eval(get)) + "\n")
+
+
+def lishi():
+    tkbox.showinfo(message="请到D:\新建文件夹\计算器\历史记录.txt中查看")
+
+
+c = tk.Button(win, bg="red", text="Enter", command=enter)
+c.pack()
+d = tk.Button(win, bg="yellow", text="查看历史记录", command=lishi)
+d.pack()
+win.mainloop()
 
