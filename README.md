@@ -35,19 +35,20 @@
 <h3>其他</h3>
 <a href="https://www.tbtool.cn" target="_blank">图吧工具箱</a>
 <a href="https://getquicker.net" target="_blank">Quiker</a>
-<a href="https://u.tools" target="_blank">utools</a>   
+<a href="https://u.tools" target="_blank">utools</a>
 <h2>作品</h2>
 <a href="file://D:/新建文件夹/触发蓝屏.exe" target="_blank">触发蓝屏</a>
 <a href="file://D:/新建文件夹/翻译.exe" target="_blank">翻译</a>
 <a href="file://D:/新建文件夹/看我免费看VIP.exe" target="_blank">看我免费看VIP</a>
 <a href="file://D:/新建文件夹/ASCII加密解密.exe" target="_blank">ASCII加密解密</a>
 <h2 id="yellow">致谢</h2>
-<h3><a href="https://zhaobokai341.github.io/zhaobokai">作者：赵博凯</a></h3>
+<h3>作者：赵博凯</h3>
 <h3>付琳</h3>
 <h3>赵小军</h3>
 <h3>赵思妍</h3>
 <h3>李翠兰</h3>
 <h3>赵素明</h3>
 <h3>武鑫岑</h3>
+<p>如有疑问和不满，请访问<a href="mailto:13935190240@163.com">13935190240@163.com</a></p>
 </body>
 </html>
