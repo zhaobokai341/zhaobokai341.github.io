@@ -37,6 +37,6 @@
 <h3>赵素明</h3>
 <h3>武鑫岑</h3>
 <p>如有疑问和不满，请访问<a href="mailto:13935190240@163.com">13935190240@163.com</a></p>
-<p><strong>请自觉遵守<a href="https://zhaobokai341.github.io/xieyi.md">协议</a></strong></p>
+<p><strong>请自觉遵守<a href="https://zhaobokai341.github.io/xieyi">协议</a></strong></p>
 </body>
 </html>
