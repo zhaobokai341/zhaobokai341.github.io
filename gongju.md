@@ -6,6 +6,7 @@
         body{background-color:purple;}
         h2{font-size:30px;}
         h3{font-size:20px;}
+        a{color:pink;}
         #yellow{background-color:yellow}
     </style>
 </head>
