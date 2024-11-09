@@ -42,7 +42,7 @@
 <a href="file://D:/新建文件夹/看我免费看VIP.exe" target="_blank">看我免费看VIP</a>
 <a href="file://D:/新建文件夹/ASCII加密解密.exe" target="_blank">ASCII加密解密</a>
 <h2 id="yellow">致谢</h2>
-<h3>作者：赵博凯</h3>
+<h3><a href="https://zhaobokai341.github.io/zhaobokai">作者：赵博凯</a></h3>
 <h3>付琳</h3>
 <h3>赵小军</h3>
 <h3>赵思妍</h3>
