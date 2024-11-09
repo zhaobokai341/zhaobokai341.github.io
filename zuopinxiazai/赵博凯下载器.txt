@@ -1,1 +1,74 @@
+import tkinter as tk
+import requests as req
+import tkinter.messagebox as tkbox
+from os import system
+
+
+win = tk.Tk()
+win.title('赵博凯下载器')
+win['background'] = 'lightblue'
+tk.Label(win, bg='yellow', fg='blue', text="欢迎来到赵博凯下载器").pack()
+scroll = tk.Scrollbar(win)
+scroll2 = tk.Scrollbar(win)
+scroll.pack(side="right", fill="y")
+scroll2.pack(side="bottom", fill="x")
+list = tk.Listbox(win, yscrollcommand=scroll.set, xscrollcommand=scroll2.set, width=50)
+
+
+def xia():
+    win2 = tk.Tk()
+    win2.title('赵博凯下载器')
+    win2['background'] = 'lightblue'
+    tk.Label(win2, bg='yellow', fg='blue', text="请填写下载信息").pack()
+    tk.Label(win2, bg='blue', fg='yellow', text="网址：").pack()
+    a = tk.Entry(win2, fg="pink")
+    a.pack()
+    tk.Label(win2, bg='blue', fg='yellow', text="文件名：").pack()
+    b = tk.Entry(win2, fg="pink")
+    b.insert(0, "D:/新建文件夹/")
+    b.pack()
+    tk.Label(win2, bg='blue', fg='yellow', text="超时设置：").pack()
+    c = tk.Entry(win2, fg="pink")
+    c.pack()
+    c.insert(0, "None")
+
+    def xia2():
+        global list
+        a2 = a.get()
+        b2 = b.get()
+        c2 = c.get()
+        tkbox.showinfo(message="正在下载，请稍等")
+        try:
+            headers = {
+                'User-Agent': 'Mozllia/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) '
+                              'Chrome/53.0.2785.116 Safari/537.36'
+            }
+            d = req.get(url=a2, timeout=eval(c2), headers=headers)
+            print(d.status_code)
+            if d.status_code != 200:
+                tkbox.showerror("访问错误", "状态码：\n" + str(d.status_code))
+            else:
+                tkbox.showinfo("访问成功", "状态码：\n" + str(d.status_code))
+                tkbox.showinfo("开始下载", "开始下载" + str(d.url))
+                try:
+                    with open(b2, 'wb') as wenjian:
+                        wenjian.write(d.content)
+                        da = tkbox.askquestion("下载成功", "下载成功，是否打开")
+                    if da == "yes":
+                        system(b2)
+                    list.insert("end", "网址：" + a2 + ";" + "文件：" + b2)
+                except Exception as e:
+                    tkbox.showerror("下载错误", "详细信息：\n" + str(type(e)) + "\n" + str(e))
+        except Exception as e:
+            tkbox.showerror("访问错误", "详细信息：\n" + str(type(e)) + "\n" + str(e))
+
+    tk.Button(win2, bg="yellow", fg="light green", text="一键下载", command=xia2).pack()
+    win2.mainloop()
+
+
+list.pack(side="bottom", fill="both")
+scroll.config(command=list.yview)
+scroll2.config(command=list.xview)
+tk.Button(win, bg="light green", fg='yellow', text="新建下载任务", command=xia).pack()
+win.mainloop()
 
