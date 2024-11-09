@@ -5,6 +5,7 @@
     <style>
         body{background-color:purple;}
         h1{font-size:60px;background-color:blue;text-align:center;}
+        a{color:red;}
     </style>
 </head>
 <body>
