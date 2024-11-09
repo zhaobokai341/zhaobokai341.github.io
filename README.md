@@ -24,10 +24,7 @@
 <br>
 <a href="https://zhaobokai341.github.io/gongju" style="font-size:30px;color:red;">查看更多</a>
 <h2>作品</h2>
-<a href="file://D:/新建文件夹/触发蓝屏.exe" target="_blank">触发蓝屏</a>
-<a href="file://D:/新建文件夹/翻译.exe" target="_blank">翻译</a>
-<a href="file://D:/新建文件夹/看我免费看VIP.exe" target="_blank">看我免费看VIP</a>
-<a href="file://D:/新建文件夹/ASCII加密解密.exe" target="_blank">ASCII加密解密</a>
+<h2>日记</h2>
 <h2 id="yellow">致谢</h2>
 <h3>作者：<a href="https://zhaobokai341.github.io/zhaobokai">赵博凯</a></h3>
 <h3>付琳</h3>
