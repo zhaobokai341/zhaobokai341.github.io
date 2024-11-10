@@ -7,7 +7,6 @@
         #标题{font-size:60px;background-color:blue}
         h2{font-size:30px;}
         h3{font-size:20px;}
-        #yellow{background-color:yellow}
     </style>
 </head>
 <body>
@@ -32,14 +31,7 @@
 <a href="https://zhaobokai341.github.io/zuopin" style="font-size:30px;color:red;">查看更多</a>
 <h2>日记</h2>
 <a href="https://zhaobokai341.github.io/riji" style="font-size:30px;color:red;">点击此处</a>
-<h2 id="yellow">致谢</h2>
 <h3>作者：<a href="https://zhaobokai341.github.io/zhaobokai">赵博凯</a></h3>
-<h3>付琳</h3>
-<h3>赵小军</h3>
-<h3>赵思妍</h3>
-<h3>李翠兰</h3>
-<h3>赵素明</h3>
-<h3>武鑫岑</h3>
 <p>如有疑问和不满，请访问<a href="mailto:13935190240@163.com">13935190240@163.com</a></p>
 <p><strong>请自觉遵守<a href="https://zhaobokai341.github.io/xieyi">协议</a></strong></p>
 </body>
