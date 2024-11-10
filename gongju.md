@@ -39,7 +39,7 @@
 <a href="https://code.visualstudio.com/" target="_blank">VScode</a>
 <a href="https://visualstudio.microsoft.com/" target="_blank">Visual Studio</a>
 <h3>AI</h3>
-<a href="https://www.doubao.com/chat" target="_blank">豆包</a>    
+<a href="https://www.doubao.com" target="_blank">豆包</a>    
 <h3>其他</h3>
 <a href="https://www.tbtool.cn" target="_blank">图吧工具箱</a>
 <a href="https://getquicker.net" target="_blank">Quiker</a>
