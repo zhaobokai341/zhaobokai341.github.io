@@ -11,6 +11,7 @@
 <body>
 <h1>日记</h1>
 <a href="https://zhaobokai341.github.io/rijizhanlan/GitHub/GitHubriji">关于Githb</a>
+<br>
 <a href="https://zhaobokai341.github.io/rijizhanlan/python/pythonriji">关于Python</a>
 </body>
 </html>
