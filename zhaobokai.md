@@ -25,6 +25,8 @@
 <p>Markdown %2</p>
 <p>PHP %0</p>
 <p>SQL %0</p>
+<p>Go %0</p>
+<p>Java %0</p>
 <p>还喜欢虚拟机，用它搞破坏</p>
 </body>
 </html>
