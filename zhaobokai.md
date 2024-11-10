@@ -12,7 +12,7 @@
 <h1>赵博凯简介</h1>
 <img src="https://zhaobokai341.github.io/zhaobokaiiscoming.jpg" width=500 height=220>
 <p>本网站是由赵博凯制作，今年11岁，精通编程（是Scratch和Python），爱研究电脑，也爱编程。</p>
-<p>"我的口头禅是print("hello world")，哈哈哈"</p>
+<p>我的口头禅是print("hello world")，哈哈哈</p>
 <p>编程能力</p>
 <p>ScratchJr %100</p>
 <p>Scratch %95</p>
