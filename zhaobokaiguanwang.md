@@ -11,6 +11,7 @@
 </head>
 <body>
 <h1 id="标题">赵博凯日记</h1>
+<p><strong>请自觉遵守<a href="https://zhaobokai341.github.io/xieyi">协议</a></strong></p>
 <h2>工具</h2>
 <h3>浏览器</h3>
 <a href="https://www.baidu.com/" target="_blank">百度</a>
@@ -33,6 +34,5 @@
 <a href="https://zhaobokai341.github.io/riji" style="font-size:30px;color:red;">点击此处</a>
 <h3>作者：<a href="https://zhaobokai341.github.io/zhaobokai">赵博凯</a></h3>
 <p>如有疑问和不满，请访问<a href="mailto:13935190240@163.com">13935190240@163.com</a></p>
-<p><strong>请自觉遵守<a href="https://zhaobokai341.github.io/xieyi">协议</a></strong></p>
 </body>
 </html>
