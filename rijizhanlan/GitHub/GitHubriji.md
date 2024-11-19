@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1>GitHub</h1>
-<a href="https://zhaobokai341.github.io/rijizhanlan/GitHub/GitHub1/GitHub如何无法访问？不要傻傻地修改hosts文件了">GitHub无法访问？不要傻傻地修改hosts文件了</a>
+<a href="https://zhaobokai341.github.io/rijizhanlan/GitHub/GitHub1/GitHub如何无法访问？不要傻傻地修改hosts文件了" target="_blank">GitHub无法访问？不要傻傻地修改hosts文件了</a>
 </body>
 </html>
 
