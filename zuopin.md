@@ -20,6 +20,9 @@
 <a href="https://zhaobokai341.github.io/zuopinxiazai/计算器.txt">计算器源代码</a>
 <br>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/石头剪刀布.exe">石头剪刀布</a>
-<a href="https://zhaobokai341.github.io/zuopinxiazai/石头剪刀布.txt">石头剪刀布源代码</a>    
+<a href="https://zhaobokai341.github.io/zuopinxiazai/石头剪刀布.txt">石头剪刀布源代码</a>   
+<br>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/浏览器命令.exe">浏览器命令</a>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/浏览器命令.txt">浏览器命令源代码</a>  
 </body>
 </html>
