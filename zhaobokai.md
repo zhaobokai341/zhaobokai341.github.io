@@ -33,7 +33,11 @@
     </tr>
     <tr>
         <th>Python</th>
-        <th>%80</th>
+        <th>%90</th>
+    </tr>
+    <tr>
+        <td>JavaScript</td>
+        <td>%50</td>
     </tr>
     <tr>
         <td>C++</td>
@@ -42,10 +46,6 @@
     <tr>
         <td>HTML</td>
         <td>%40</td>
-    </tr>
-    <tr>
-        <td>JavaScript</td>
-        <td>%30</td>
     </tr>
     <tr>
         <td>cmd</td>
