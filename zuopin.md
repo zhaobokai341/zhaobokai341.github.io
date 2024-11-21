@@ -3,7 +3,28 @@
     <meta charset="utf-8">
     <title>作品</title>
     <style>
-        body{background-color:purple;}
+        body{
+            margin: 60px;
+            width: 32%;
+            height: 48vh;
+            background: linear-gradient(-45deg,yellow,blue,green,purple,black);
+            background-size: 200% 200%;
+            animation: gradient 8s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0 12%;
+            }
+
+            50% {
+                background-position: 100% 100%;
+            }
+
+            100% {
+                background-position: 0 12%;
+            }
+        }
         h1{font-size:60px;background-color:blue;text-align:center;}
         a{color:red;}
     </style>
