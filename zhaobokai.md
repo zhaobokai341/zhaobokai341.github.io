@@ -6,6 +6,8 @@
         body{background-color:purple;}
         h1{font-size:60px;background-color:blue;text-align:center;}
         p{font-size:20px;color:yellow}
+        td{color:green}
+        th{color:red}
     </style>
 </head>
 <body>
@@ -16,23 +18,80 @@
 <p>我的别名是Python坤，是一位练习两年半的个人练习生，擅长Ctrl+C和Ctrl+V</p>
 <p>平常在玩电脑，编程，看ikun等</p>
 <p>我的编程能力</p>
-<p>ScratchJr %100</p>
-<p>Scratch %95</p>
-<p>Python %80</p>
-<p>C++ %40</p>
-<p>HTML %40</p>
-<p>JavaScript %30</p>
-<p>cmd %30</p>
-<p>Mardown %20</p>
-<p>C语言 %10</p>
-<p>PowerShell %10</p>
-<p>CSS %5</p>
-<p>PHP %0</p>
-<p>SQL %0</p>
-<p>Go %0</p>
-<p>Java %0</p>
-<p>Rust %0</p>
-<p>Nginx %0</p>
+<table border="1">
+    <tr>
+        <td>编程语言</td>
+        <td>能力</td>
+    </tr>
+    <tr>
+        <th>ScratchJr</th>
+        <th>%100</th>
+    </tr>
+    <tr>
+        <th>Scratch</th>
+        <th>%95</th>
+    </tr>
+    <tr>
+        <th>Python</th>
+        <th>%80</th>
+    </tr>
+    <tr>
+        <td>C++</td>
+        <td>%40</td>
+    </tr>
+    <tr>
+        <td>HTML</td>
+        <td>%40</td>
+    </tr>
+    <tr>
+        <td>JavaScript</td>
+        <td>%30</td>
+    </tr>
+    <tr>
+        <td>cmd</td>
+        <td>%30</td>
+    </tr>
+    <tr>
+        <td>Mardown</td>
+        <td>%20</td>
+    </tr>
+    <tr>
+        <td>C语言</td>
+        <td>%10</td>
+    </tr>
+    <tr>
+        <td>PowerShell</td>
+        <td>%10</td>
+    </tr>
+    <tr>
+        <td>CSS</td>
+        <td>%5</td>
+    </tr>
+    <tr>
+        <td>PHP</td>
+        <td>%0</td>
+    </tr>
+    <tr>
+        <td>SQL</td>
+        <td>%0</td>
+    </tr>
+    <tr>
+        <td>Go</td>
+        <td>%0</td>
+    </tr>
+    <tr>
+        <td>Java</td>
+        <td>%0</td>
+    </tr>
+    <tr>
+        <td>Rust</td>
+        <td>%0</td>
+    </tr>
+    <tr>
+        <td>Nginx</td>
+        <td>%0</td>
+    </tr>
+</table>
 <p>还喜欢虚拟机，用它删虚拟机的系统文件</p>
 <p>拜拜</p>
 </body>
