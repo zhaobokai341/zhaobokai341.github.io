@@ -25,7 +25,16 @@
                 background-position: 0 12%;
             }
         }
-        h1{font-size:60px;background-color:blue;text-align:center;}
+        h1{
+              text-align:center;
+              font-size: 40px;
+              color:white;
+              text-shadow:0px 1px 0px #c0c0c0,
+                 0px 2px 0px #b0b0b0,
+                 0px 3px 0px #a0a0a0,
+                 0px 4px 0px #909090,
+                 0px 5px 10px rgba(0, 0, 0, .9);
+                    }
         p{font-size:20px;color:yellow}
         td{color:green}
         th{color:red}
