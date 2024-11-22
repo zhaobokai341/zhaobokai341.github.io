@@ -27,6 +27,7 @@
         }
         #标题{font-size:60px;background-color:blue}
         h1{
+              text-align:center;
               font-size: 40px;
               color:white;
               text-shadow:0px 1px 0px #c0c0c0,
