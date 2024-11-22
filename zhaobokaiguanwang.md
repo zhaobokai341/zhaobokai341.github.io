@@ -38,7 +38,6 @@
                     }
         h2{font-size:30px;}
         h3{font-size:20px;}
-        th{font-size:20px;}
         a:link{color: red;}
         a:visited{color: purple;}
         a:hover{color: yellow;}
