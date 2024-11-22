@@ -54,5 +54,8 @@
 <br>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/浏览器命令.exe">浏览器命令</a>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/浏览器命令.txt">浏览器命令源代码</a>  
+<br>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/网页版计算器.exe">网页版计算器</a>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/网页版计算器.txt">网页版计算器源代码</a> 
 </body>
 </html>
