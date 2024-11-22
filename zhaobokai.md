@@ -5,8 +5,8 @@
     <style>
         body{
             margin: 60px;
-            width: 130%;
-            height: 150vh;
+            width: 100%;
+            height: 100vh;
             background: linear-gradient(-45deg,yellow,blue,green,purple,black);
             background-size: 200% 200%;
             animation: gradient 8s ease infinite;
