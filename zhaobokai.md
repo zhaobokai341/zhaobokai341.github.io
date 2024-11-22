@@ -5,7 +5,7 @@
     <style>
         body{
             margin: 60px;
-            width: 100%;
+            width: 130%;
             height: 150vh;
             background: linear-gradient(-45deg,yellow,blue,green,purple,black);
             background-size: 200% 200%;
