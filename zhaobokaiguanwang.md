@@ -38,8 +38,9 @@
                     }
         h2{font-size:30px;}
         h3{font-size:20px;}
+        th{font-size:20px;}
         a:link{color: red;}
-        a:visited{color: red;}
+        a:visited{color: purple;}
         a:hover{color: yellow;}
         a:active{color: green;}
     </style>
@@ -67,6 +68,16 @@
 <a href="https://zhaobokai341.github.io/zuopin" style="font-size:30px;color:red;">查看更多</a>
 <h2>日记</h2>
 <a href="https://zhaobokai341.github.io/riji" style="font-size:30px;color:red;">点击此处</a>
+<h2>网站更新历史</h2>
+<table border="1" width="1500">
+    <tr>
+        <th>2024/11/8</th>
+        <th>网站构造成功</th>
+    </tr>
+    <tr>
+        <th>2024/11/9</th>
+        <th>网站完成了基本构造</th>
+<a href="https://zhaobokai341.github.io/gengxin" style="font-size:30px;color:red;">查看更多</a>
 <h3>作者：<a href="https://zhaobokai341.github.io/zhaobokai">赵博凯</a></h3>
 <p>如有疑问和不满，请访问<a href="mailto:13935190240@163.com">13935190240@163.com</a></p>
 <a href="https://github.com/zhaobokai341/zhaobokai341.github.io" target="_blank">我的GitHub仓库</a>
