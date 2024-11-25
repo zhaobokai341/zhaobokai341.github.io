@@ -44,6 +44,8 @@
 <br>
 <a href="https://zhaobokai341.github.io/rijizhanlan/python/pythonriji">关于Python</a>
 <br>
+<a href="https://zhaobokai341.github.io/rijizhanlan/HTMLCSSJS/HTMLCSSJSriji">HTML&CSS&JavaScript</a>
+<br>
 <a href="https://zhaobokai341.github.io/rijizhanlan/richang/richangriji">我的日常</a>
 </body>
 </html>
