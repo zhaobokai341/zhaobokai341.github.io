@@ -165,8 +165,8 @@
 <p>HTML</p>
 <p><br>
 <h2 class="enter">我是赵博凯</h2><br>
-<br><br>
-<h2 class="leave">你好呀</h2></p><br>
+<br>
+<h2 class="leave">你好呀</h2></p>
 </body>
 </html>
 </body>
