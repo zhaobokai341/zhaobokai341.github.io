@@ -56,6 +56,9 @@
 <a href="https://zhaobokai341.github.io/zuopinxiazai/浏览器命令.txt">浏览器命令源代码</a>  
 <br>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/网页版计算器">网页版计算器</a>
-<a href="https://zhaobokai341.github.io/zuopinxiazai/网页版计算器.txt">网页版计算器源代码</a> 
+<a href="https://zhaobokai341.github.io/zuopinxiazai/网页版计算器.txt">网页版计算器源代码</a>
+<br>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/网页版计算器2">网页版计算器2</a>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/网页版计算器2.txt">网页版计算器源代码2</a> 
 </body>
 </html>
