@@ -40,6 +40,6 @@
 </head>
 <body>
 <h1>GitHub</h1>
-<a href="https://zhaobokai341.github.io/rijizhanlan/HTMLCSSJS/HTMLCSSJS1/炫酷CSS，让你的网站栩栩如生" target="_blank">改Bug，真头疼，然后高效解决Bug</a>
+<a href="https://zhaobokai341.github.io/rijizhanlan/qita/qita1/改Bug，真头疼，如何高效解决Bug" target="_blank">改Bug，真头疼，如何高效解决Bug</a>
 </body>
 </html>
