@@ -47,6 +47,8 @@
 <a href="https://zhaobokai341.github.io/rijizhanlan/HTMLCSSJS/HTMLCSSJSriji">HTML&CSS&JavaScript</a>
 <br>
 <a href="https://zhaobokai341.github.io/rijizhanlan/richang/richangriji">我的日常</a>
+<br>
+<a href="https://zhaobokai341.github.io/rijizhanlan/qita/qitariji">其它</a>
 </body>
 </html>
 
