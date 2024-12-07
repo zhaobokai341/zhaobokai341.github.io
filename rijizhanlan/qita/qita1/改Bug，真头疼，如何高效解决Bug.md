@@ -63,7 +63,7 @@
 <h3>comate</h3>
 <p>如果你用的是JetBrains或VScode，你可以在插件中搜索“comate”然后安装，安装后注册登录即可</h3>
 <h3>豆包</h3>
-<p>如果你都不用，那么可以看看豆包AI，但比comate要弱一些，链接<a target="_blank" href="https://www.doubao.com">https://www.doubao.com</p>
+<p>如果你都不用，那么可以看看豆包AI，但比comate要弱一些，链接<a target="_blank" href="https://www.doubao.com">https://www.doubao.com</a></p>
 <br>
 <p>它们都有除解决Bug的其它功能，欢迎大家探索</p>
 <p>拜拜</p>
