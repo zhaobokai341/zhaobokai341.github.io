@@ -60,8 +60,5 @@
 <br>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/网页版计算器2">网页版计算器2</a>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/网页版计算器2.txt">网页版计算器源代码2</a>
-<br>
-<a href="https://zhaobokai341.github.io/zuopinxiazai/赵博凯秒表">赵博凯秒表</a>
-<a href="https://zhaobokai341.github.io/zuopinxiazai/赵博凯秒表.txt">赵博凯秒表源代码</a> 
 </body>
 </html>
