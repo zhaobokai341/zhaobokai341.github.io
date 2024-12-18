@@ -8,6 +8,7 @@ fun4 = []
 while True:
     fun4 = []
     try:
+        # 定义生成随机整数的函数
         def a1():
             fun1 = input("最大范围：")
             fun2 = input("最小范围：")
@@ -16,6 +17,7 @@ while True:
             print("随机整数：", r.randint(fun2, fun1))
 
 
+        # 定义生成随机小数的函数
         def a2():
             fun1 = input("最大范围：")
             fun2 = input("最小范围：")
@@ -26,6 +28,7 @@ while True:
             print("随机小数：", round(r.uniform(fun2, fun1), fun3))
 
 
+        # 定义生成有随机规律的整数/小数的函数
         def a3():
             fun1 = input("最大范围：")
             fun2 = input("最小范围：")
@@ -36,6 +39,7 @@ while True:
             print("随机数：", r.randrange(fun2, fun1, fun3))
 
 
+        # 定义生成随机元素的函数
         def a4():
             b = input("要写多少个元素：")
             b = int(b)
@@ -46,11 +50,13 @@ while True:
             print("打乱后的元素：", fun4)
 
 
+        # 定义退出函数
         def a5():
             print("开始退出，请稍后......")
             exit()
 
 
+        # 主函数，根据用户输入选择相应的函数
         def main():
             a = input("请选择：")
             if a == "1":
@@ -68,3 +74,4 @@ while True:
         main()
     except Exception as e:
         print("ERROR", type(e), ":", e)
+
