@@ -60,5 +60,8 @@
 <br>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/网页版计算器2">网页版计算器2</a>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/网页版计算器2.txt">网页版计算器源代码2</a>
+<br>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/密码模拟破解.exe">密码模拟破解</a>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/密码模拟破解.txt">密码模拟破解源代码</a>
 </body>
 </html>
