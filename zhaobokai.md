@@ -66,24 +66,28 @@
         <th>%90</th>
     </tr>
     <tr>
+        <td>Markdown</td>
+        <td>%60</td>
+    </tr>
+    <tr>
         <td>JavaScript</td>
+        <td>%60</td>
+    </tr>
+    <tr>
+        <td>SQL</td>
+        <td>%50</td>
+    </tr>
+    <tr>
+        <td>HTML</td>
         <td>%50</td>
     </tr>
     <tr>
         <td>C++</td>
-        <td>%40</td>
-    </tr>
-    <tr>
-        <td>HTML</td>
-        <td>%40</td>
-    </tr>
-    <tr>
-        <td>cmd</td>
         <td>%30</td>
     </tr>
     <tr>
-        <td>Mardown</td>
-        <td>%20</td>
+        <td>cmd</td>
+        <td>%10</td>
     </tr>
     <tr>
         <td>C语言</td>
@@ -91,18 +95,14 @@
     </tr>
     <tr>
         <td>PowerShell</td>
-        <td>%10</td>
-    </tr>
-    <tr>
-        <td>CSS</td>
         <td>%5</td>
     </tr>
     <tr>
-        <td>PHP</td>
-        <td>%0</td>
+        <td>CSS</td>
+        <td>%2</td>
     </tr>
     <tr>
-        <td>SQL</td>
+        <td>PHP</td>
         <td>%0</td>
     </tr>
     <tr>
@@ -115,6 +115,14 @@
     </tr>
     <tr>
         <td>Rust</td>
+        <td>%0</td>
+    </tr>
+    <tr>
+        <td>R</td>
+        <td>%0</td>
+    </tr>
+    <tr>
+        <td>Scala</td>
         <td>%0</td>
     </tr>
     <tr>
