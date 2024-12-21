@@ -97,9 +97,9 @@
       for (let j = 0; j < Sitemap.length; j++) {
         robots += "Sitemap: " + Sitemap[j] + "\n";
       }
-      document.getElementById("robots").value = robots;
-      console.log(robots);
     }
+    document.getElementById("robots").value = robots;
+    console.log(robots);
   }
 </script>
 </body>
