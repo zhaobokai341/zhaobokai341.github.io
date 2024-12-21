@@ -46,7 +46,7 @@
 <a href="https://zhaobokai341.github.io/zuopinxiazai/随机数.exe">随机数</a>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/随机数.txt">随机数源代码</a>
 <br>
-<a href="https://zhaobokai341.github.io/zuopinxiazai/计算器.exe">计算器</a>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/计算器.exe">计算器（需要在D盘里新建一个文件夹，名称为：“新建文件夹”）</a>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/计算器.txt">计算器源代码</a>
 <br>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/石头剪刀布.exe">石头剪刀布</a>
