@@ -63,5 +63,8 @@
 <br>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/密码模拟破解.exe">密码模拟破解</a>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/密码模拟破解.txt">密码模拟破解源代码</a>
+<br>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/robots">在线生成robots.txt</a>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/robots.txt">在线生成robots.txt源代码</a>
 </body>
 </html>
