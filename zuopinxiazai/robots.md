@@ -36,7 +36,7 @@
 <h1>欢迎来到robots.txt生成器，你可以生成属于你自己的robots</h1>
 <p>开始</p>
 <button onclick="add()">添加规则</button>
-<button onclick="enter()">生成</button>
+<button onclick="enter()">生成robots</button>
 <br>
 <label for="Sitemap">Sitemap（站点地图）（换行分隔）（要输入完整链接）<br>
   <textarea cols="60" rows="10" id="Sitemap"></textarea>
