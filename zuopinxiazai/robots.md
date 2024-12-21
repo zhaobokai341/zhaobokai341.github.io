@@ -1,6 +1,5 @@
 <!--作者：赵博凯-->
 <!--语言：HTML-->
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
