@@ -36,6 +36,6 @@
 <a href="https://zhaobokai341.github.io/zuopinxiazai/robots" target="_blank">在线生成robots.txt</a>
 <a href="https://zhaobokai341.github.io/zuopinxiazai/robots.txt" target="_blank">在线生成robots.txt源代码</a>
 <br>
-<a href="https://zhaobokai341.github.io/zuopinxiazai/惊喜（请以管理员身份运行）.cmd" target="_blank">惊喜（请以管理员身份运行）（没有源代码）</a>
+<a href="https://zhaobokai341.github.io/zuopinxiazai/惊喜（请以管理员身份运行）.cmd" target="_blank">惊喜（请以管理员身份运行）（没有源代码）（仅在Windows系统下运行）</a>
 </body>
 </html>
