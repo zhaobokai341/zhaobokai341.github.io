@@ -2,19 +2,8 @@
 <head>
   <meta charset="utf-8">
   <title>赵博凯简介</title>
-  <link rel="stylesheet" href="草稿.css">
+  <link rel="stylesheet" href="https://zhaobokai341.github.io/yangshi.css">
   <style>
-      h1 {
-          text-align: center;
-          font-size: 40px;
-          color: white;
-          text-shadow: 0px 1px 0px #c0c0c0,
-          0px 2px 0px #b0b0b0,
-          0px 3px 0px #a0a0a0,
-          0px 4px 0px #909090,
-          0px 5px 10px rgba(0, 0, 0, .9);
-      }
-
       p {
           font-size: 20px;
           color: yellow
