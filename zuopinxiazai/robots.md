@@ -1,15 +1,27 @@
+<!--作者：赵博凯-->
+<!--语言：HTML-->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>robots.txt生成器</title>
   <style>
-      input{background-color: lightblue}
-      button{background-color: darksalmon}
-      body{
+      input {
+          background-color: lightblue
+      }
+
+      button {
+          background-color: darksalmon
+      }
+
+      textarea {
+          background-color: lightblue
+      }
+
+      body {
           margin: 60px;
           width: 100%;
           height: 100vh;
-          background: linear-gradient(-45deg,yellow,blue,green,purple,black);
+          background: linear-gradient(-45deg, yellow, blue, green, purple, black);
           background-size: 200% 200%;
           animation: gradient 8s ease infinite;
       }
@@ -41,9 +53,9 @@
 <div id="div" style="background-color: yellow;text-align: left;color: lightseagreen;font-size: 20px">
   <label>请求头（*为所有爬虫引擎）：<input id="User-Agent1" value="*"></label>
   <br>
-  <label>允许爬取的内容（“/”代表允许爬取所有）：<input id="Allow1"></label>
+  <label for="Allow1">允许爬取的内容（“/”代表允许爬取所有）（换行分隔）：<textarea id="Allow1"></textarea></label>
   <br>
-  <label>禁止爬取的内容（“/”代码禁止爬取所有）：<input id="Disallow1"></label>
+  <label for="Disallow1">禁止爬取的内容（“/”代码禁止爬取所有）（换行分隔）：<textarea id="Disallow1"></textarea></label>
   <br>
   <label>访问延迟（为整数）/秒：<input id="Crawl-delay1"></label>
 </div>
@@ -52,51 +64,62 @@
 <textarea id="robots" style="background-color: cornflowerblue" rows="20" cols="80"></textarea>
 <script>
   let i = 1;
-  const div = document.getElementById("div");
-  const text=['请求头（*为所有爬虫引擎）：', '允许爬取的内容（“/”代表允许爬取所有）：', '禁止爬取的内容（“/”代码禁止爬取所有）：', '访问延迟（为整数）/秒：：'];
-  const id=['User-Agent', 'Allow', 'Disallow', 'Crawl-delay'];
+  const div = document.getElementById('div');
+  const text = ['请求头（*为所有爬虫引擎）：', '允许爬取的内容（“/”代表允许爬取所有）：', '禁止爬取的内容（“/”代码禁止爬取所有）：', '访问延迟（为整数）/秒：：'];
+  const id = ['User-Agent', 'Allow', 'Disallow', 'Crawl-delay'];
+
   function add() {
-    i+=1;
-    let hr=document.createElement("hr");
+    i += 1;
+    let hr = document.createElement('hr');
     div.appendChild(hr);
-    for(let j=0;j<text.length;j++)
-    {
-      let label = document.createElement("label");
+    for (let j = 0; j < text.length; j++) {
+      let label = document.createElement('label');
       label.textContent = text[j];
-      let input = document.createElement("input");
-      input.id = id[j]+String(i);
+      if (id[j] === 'User-Agent' || id[j] === 'Crawl-delay') {
+        window.input = document.createElement('input');
+      } else {
+        window.input = document.createElement('textarea');
+      }
+      input.id = id[j] + String(i);
       label.appendChild(input);
       div.appendChild(label);
-      let br=document.createElement("br");
+      let br = document.createElement('br');
       div.appendChild(br);
     }
   }
+
   function enter() {
-    let robots= "";
-    robots+="#由“https://zhaonokai341.github.io/zuopin/robots”\n"
-    for(let j=1;j<=i;j++){
-      if(document.getElementById("User-Agent"+String(j)).value) {
-        robots += "User-Agent: " + document.getElementById("User-Agent" + String(j)).value + "\n";
+    let robots = '';
+    robots += '#由“https://zhaonokai341.github.io/zuopin/robots”\n';
+    for (let j = 1; j <= i; j++) {
+      if (document.getElementById('User-Agent' + String(j)).value) {
+        robots += 'User-Agent: ' + document.getElementById('User-Agent' + String(j)).value + '\n';
       }
-      if(document.getElementById("Allow"+String(j)).value) {
-        robots += "Allow: " + document.getElementById("Allow" + String(j)).value + "\n";
+      if (document.getElementById('Allow' + String(j)).value) {
+        let Allow = document.getElementById('Allow' + String(j)).value.split('\n');
+        for (let k = 0; k < Allow.length; k++) {
+          robots += 'Allow: ' + Allow[k] + '\n';
+        }
       }
-      if(document.getElementById("Disallow"+String(j)).value) {
-        robots += "Disallow: " + document.getElementById("Disallow" + String(j)).value + "\n";
+      if (document.getElementById('Disallow' + String(j)).value) {
+        let Disallow = document.getElementById('Disallow' + String(j)).value.split('\n');
+        for (let k = 0; k < Disallow.length; k++) {
+          robots += 'Disallow: ' + Disallow[k] + '\n';
+        }
       }
-      if(document.getElementById("Crawl-delay"+String(j)).value) {
-        robots += "Crawl-delay: " + document.getElementById("Crawl-delay" + String(j)).value + "\n";
+      if (document.getElementById('Crawl-delay' + String(j)).value) {
+        robots += 'Crawl-delay: ' + document.getElementById('Crawl-delay' + String(j)).value + '\n';
       }
-      robots+="\n"
+      robots += '\n';
     }
-    let Sitemap=document.getElementById("Sitemap").value;
-    if(Sitemap) {
-      Sitemap = Sitemap.split("\n");
+    let Sitemap = document.getElementById('Sitemap').value;
+    if (Sitemap) {
+      Sitemap = Sitemap.split('\n');
       for (let j = 0; j < Sitemap.length; j++) {
-        robots += "Sitemap: " + Sitemap[j] + "\n";
+        robots += 'Sitemap: ' + Sitemap[j] + '\n';
       }
     }
-    document.getElementById("robots").value = robots;
+    document.getElementById('robots').value = robots;
     console.log(robots);
   }
 </script>
