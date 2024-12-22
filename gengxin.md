@@ -2,29 +2,8 @@
 <head>
     <meta charset="utf-8">
     <title>我的网站更新历史</title>
+    <link rel="stylesheet" href="https://zhaobokai341.github.io/yangshi.css">
     <style>
-        body{
-            margin: 60px;
-            width: 100%;
-            height: 100vh;
-            background: linear-gradient(-45deg,yellow,blue,green,purple,black);
-            background-size: 200% 200%;
-            animation: gradient 8s ease infinite;
-        }
-
-        @keyframes gradient {
-            0% {
-                background-position: 0 12%;
-            }
-
-            50% {
-                background-position: 100% 100%;
-            }
-
-            100% {
-                background-position: 0 12%;
-            }
-        }
         #标题{font-size:60px;background-color:blue}
         h1{
               text-align:center;
