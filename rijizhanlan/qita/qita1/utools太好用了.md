@@ -17,7 +17,7 @@
   <source src="https://zhaobokai341.github.io/rijizhanlan/dongxi/utools太好用了/utools5.0.mp4" type="video/mp4">
 </video>
 <p>如果无法加载，说明你的浏览器过于古早</p>
-<p>最后，官网<a href="https://u.tools/">https://u.tools/</a>等着你</p>
+<p>最后，官网<a href="https://u.tools/" target="_blank">https://u.tools/</a>等着你</p>
 <p>拜拜</p>
 </body>
 </html>
