@@ -10,5 +10,6 @@
 <body>
 <h1>GitHub</h1>
 <a href="https://zhaobokai341.github.io/rijizhanlan/qita/qita1/改Bug，真头疼，如何高效解决Bug" target="_blank">改Bug，真头疼，如何高效解决Bug</a>
+<a href="https://zhaobokai341.github.io/rijizhanlan/qita/qita1/utools太好用了" target="_blank">utools太好用了</a>
 </body>
 </html>
