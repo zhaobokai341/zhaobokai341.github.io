@@ -60,6 +60,9 @@
   </tr>
 </table>
 <a href="https://zhaobokai341.github.io/gengxin" style="font-size:30px;color:red;">查看更多</a>
+<br>
+<h2>常见问题</h2>
+<a href="https://zhaobokai341.github.io/wenti" style="font-size:30px;color:red;">点击此处</a>
 <h3>作者：<a href="https://zhaobokai341.github.io/zhaobokai">赵博凯</a></h3>
 <p>如有疑问和不满，请访问<a href="mailto:13935190240@163.com">13935190240@163.com</a></p>
 <a href="https://github.com/zhaobokai341/zhaobokai341.github.io" target="_blank">我的GitHub仓库</a>
