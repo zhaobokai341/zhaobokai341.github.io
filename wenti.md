@@ -4,7 +4,7 @@
     <title>常见问题</title>
     <link rel="stylesheet" href="https://zhaobokai341.github.io/yangshi.css">
     <style>
-        a{color:pink;font-size:30px;}
+        a{color:pink;}
     </style>
 </head>
 <body>
@@ -22,8 +22,8 @@
     <td>如出现Bug，请耐心等候，本网站现在只由一人更新维护，发现并修复Bug需要几分钟至几天，当然联系我可让我更快地发现Bug。</td>
   </tr>
   <tr>
-    <td>我有更多问题或要类型你怎么办？</td>
-    <td>请点<a href="mailto:13935190240@163.com ">13935190240@163.com网易邮箱联系我。</a></td>
+    <td>我有更多问题或要联系你怎么办？</td>
+    <td>请点<a href="mailto:13935190240@163.com">13935190240@163.com网易邮箱联系我。</a></td>
   </tr>
 </table>
 </body>
