@@ -12,5 +12,10 @@
 <h1>日记</h1>
 <h1>快新年了，给大家看一下我的GitHub的年度总结（赵博凯）（2024/12/28）</h1>
 <p>快新年了，<s>2024/1/1</s>2024/12/31，我会给大家看一下我的GitHub的年度总结，非常精彩，请大家耐心等待</p>
+<hr>
+<p>来啦</p>
+<video controls>
+    <source src="https://zhaobokai341.github.io/rijizhanlan/dongxi/快新年了，给大家看一下我的GitHub的年度总结/unwrapped-zhaobokai341.mp4" type="video/mp4">
+</video>
 </body>
 </html>
