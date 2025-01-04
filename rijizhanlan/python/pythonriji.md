@@ -9,6 +9,6 @@
 </head>
 <body>
 <h1>GitHub</h1>
-<a href="https://zhaobokai341.github.io/rijizhanlan/python/python1/131" target="_blank">No Python at ... 错误解决</a>
+<a href="../python/python1/131" target="_blank">No Python at ... 错误解决</a>
 </body>
 </html>
