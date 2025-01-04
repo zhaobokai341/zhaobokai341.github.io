@@ -9,8 +9,8 @@
 </head>
 <body>
 <h1>GitHub</h1>
-<a href="../qita/qita1/151" target="_blank">改Bug，真头疼，如何高效解决Bug</a>
+<a href="../15zhanlan/151" target="_blank">改Bug，真头疼，如何高效解决Bug</a>
 <br>
-<a href="../qita/qita1/152" target="_blank">utools太好用了</a>
+<a href="../15zhanlan/152" target="_blank">utools太好用了</a>
 </body>
 </html>
