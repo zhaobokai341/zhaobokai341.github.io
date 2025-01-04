@@ -1,0 +1,154 @@
+<!--语言：HTML-->
+<!--作者：赵博凯-->
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>看我免费看各大VIP视频动画片</title>
+  <link rel="stylesheet" href="https://zhaobokai341.github.io/yangshi.css">
+  <style>
+      * {
+          margin: 0;
+          padding: 0;
+          outline: none;
+          box-sizing: border-box;
+      }
+
+      .wrapper {
+          width: 450px;
+          background-color: #fff;
+          padding: 30px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .wrapper .input-data {
+          width: 100%;
+          height: 40px;
+          position: relative;
+      }
+
+      .wrapper .input-data input {
+          width: 100%;
+          height: 100%;
+          border: none;
+          border-bottom: 2px solid silver;
+          font-size: 17px;
+      }
+
+      .input-data input:focus ~ label,
+      .input-data input:valid ~ label {
+          transform: translateY(-20px);
+          font-size: 15px;
+          color: #4158D0;
+      }
+
+      .wrapper .input-data label {
+          position: absolute;
+          bottom: 10px;
+          left: 0;
+          color: grey;
+          pointer-events: none;
+          transition: all 0.3s ease;
+      }
+
+      .wrapper .input-data .underline {
+          position: absolute;
+          bottom: 0;
+          height: 2px;
+          width: 100%;
+      }
+
+      .input-data .underline:before {
+          position: absolute;
+          content: "";
+          height: 100%;
+          width: 100%;
+          background: #4158D0;
+          transform: scaleX(0);
+          transition: transform 0.3s ease;
+      }
+
+      .input-data input:focus ~ .underline:before,
+      .input-data input:valid ~ .underline:before {
+          transform: scaleX(1);
+      }
+  </style>
+</head>
+<body>
+<h1>看我免费看各大VIP视频动画片</h1>
+<div id="line" style="font-size: 15px;color: blanchedalmond">
+  <!-- 线路1 -->
+  <label for="line1">线路1（https://jx.xmflv.cc/?url=）</label>
+  <input id="line1" type="radio" name="1" value="true" checked="checked">
+  <br>
+  <!-- 线路2 -->
+  <label for="line2">线路2（https://jx.playerjy.com/?ads=0&url=）</label>
+  <input id="line2" type="radio" name="1" value="true">
+  <br>
+  <!-- 线路3 -->
+  <label for="line3">线路3（https://api.bd.al/?url=）</label>
+  <input id="line3" type="radio" name="1" value="true">
+  <br>
+  <!-- 线路4 -->
+  <label for="line4">线路4（https://jx.xymp4.cc/?url=）</label>
+  <input id="line4" type="radio" name="1" value="true">
+  <br>
+  <!-- 线路5 -->
+  <label for="line5">线路5（https://jx.2s0.cn/player/?url=）</label>
+  <input id="line5" type="radio" name="1" value="true">
+  <br>
+  <!-- 线路6 -->
+  <label for="line6">线路6（https://a.wkvip.net/index.php?url=）</label>
+  <input id="line6" type="radio" name="1" value="true">
+</div>
+<p id="vip_url"
+   style="font-size: 15px;background: -webkit-linear-gradient(-45deg, yellow, blue, green, purple, black)"></p>
+<button onclick="iframe()">在线播放</button>
+<br>
+<button onclick="open_url()">新窗口播放</button>
+<div class="wrapper">
+  <div class="input-data">
+    <input id="url" type="text" required="" />
+    <div class="underline"></div>
+    <label for="url">请输入URL：</label>
+  </div>
+</div>
+<iframe id="iframe" width="1000" height="800" src="https://zhaobokai341.github.io"></iframe>
+<script>
+  // 定义VIP视频链接数组
+  const vip_url = ['https://jx.xmflv.cc/?url=', 'https://jx.playerjy.com/?ads=0&url=', 'https://api.bd.al/?url=', 'https://jx.xymp4.cc/?url=', 'https://jx.2s0.cn/player/?url=', 'https://a.wkvip.net/index.php?url='];
+
+  // 在线播放函数
+  function iframe() {
+    // 将VIP视频链接显示在页面上
+    document.getElementById('vip_url').textContent = `vip视频链接：${checked(false)}`;
+    // 将VIP视频链接赋值给iframe的src属性
+    document.getElementById('iframe').src = checked();
+  }
+
+  // 新窗口播放函数
+  function open_url() {
+    // 打开新窗口播放VIP视频
+    window.open(checked(), '_blank');
+  }
+
+  // 获取选中的线路和URL函数
+  function checked(warning = true) {
+    // 如果URL为空，则弹出警告框，并返回默认链接
+    if (document.getElementById('url').value === '' || /^\s*$/.test(document.getElementById('url').value) !== false) {
+      if (warning) {
+        alert('url不能为空');
+      }
+      return 'https://zhaobokai341.github.io';
+    } else {
+      // 遍历线路，找到选中的线路，并返回VIP视频链接
+      for (let i = 1; i <= 6; i++) {
+        if (document.getElementById('line' + i).checked) {
+          return vip_url[i - 1] + document.getElementById('url').value;
+        }
+      }
+    }
+  }
+</script>
+</body>
+</html>
+
