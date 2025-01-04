@@ -9,15 +9,15 @@
 </head>
 <body>
 <h1>日记</h1>
-<a href="https://zhaobokai341.github.io/rijizhanlan/GitHub/GitHubriji">关于Githb</a>
+<a href="../rijizhanlan/GitHub/11riji">关于Githb</a>
 <br>
-<a href="https://zhaobokai341.github.io/rijizhanlan/python/pythonriji">关于Python</a>
+<a href="../rijizhanlan/python/13riji">关于Python</a>
 <br>
-<a href="https://zhaobokai341.github.io/rijizhanlan/HTMLCSSJS/HTMLCSSJSriji">HTML&CSS&JavaScript</a>
+<a href="../rijizhanlan/HTMLCSSJS/12riji">HTML&CSS&JavaScript</a>
 <br>
-<a href="https://zhaobokai341.github.io/rijizhanlan/richang/richangriji">我的日常</a>
+<a href="../rijizhanlan/richang/14riji">我的日常</a>
 <br>
-<a href="https://zhaobokai341.github.io/rijizhanlan/qita/qitariji">其它</a>
+<a href="../rijizhanlan/qita/15riji">其它</a>
 </body>
 </html>
 
