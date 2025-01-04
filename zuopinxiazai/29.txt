@@ -1,0 +1,244 @@
+<!--作者：赵博凯-->
+<!--语言：HTML-->
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+    <link rel="stylesheet" href="https://zhaobokai341.github.io/yangshi.css">
+</head>
+<style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+        outline: none;
+        box-sizing: border-box;
+    }
+    .wrapper{
+        width: 450px;
+        background-color: #fff;
+        padding: 30px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+    .wrapper .input-data{
+        width: 100%;
+        height: 40px;
+        position: relative;
+    }
+    .wrapper .input-data input{
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-bottom: 2px solid silver;
+        font-size: 17px;
+    }
+    .input-data input:focus ~ label,
+    .input-data input:valid ~ label{
+        transform: translateY(-20px);
+        font-size: 15px;
+        color: #4158D0;
+    }
+    .wrapper .input-data label{
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        color: grey;
+        pointer-events: none;
+        transition: all 0.3s ease;
+    }
+    .wrapper .input-data .underline{
+        position: absolute;
+        bottom: 0px;
+        height: 2px;
+        width: 100%;
+    }
+    .input-data .underline:before{
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: #4158D0;
+        transform: scaleX(0);
+        transition:transform 0.3s ease;
+    }
+
+    .input-data input:focus ~ .underline:before,
+    .input-data input:valid ~ .underline:before{
+        transform: scaleX(1);
+    }
+        button{background-color:green;}
+        h1{
+            font-size:60px;
+            background-color:blue;
+            text-align:center;
+            text-shadow:0px 1px 0px #c0c0c0,
+            0px 2px 0px #b0b0b0,
+            0px 3px 0px #a0a0a0,
+            0px 4px 0px #909090,
+            0px 5px 10px rgba(0, 0, 0, .9);
+                        }
+    .button-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .glow-button {
+        position: relative;
+        width: 240px;
+        height: 72px;
+        border: none;
+        border-radius: 4px;
+        background: transparent;
+        color: var(--btn-color);
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 72px;
+        cursor: pointer;
+        overflow: hidden;
+        box-shadow: 0 0 1px var(--btn-color);
+        transition: box-shadow 0.3s, background-color 0.3s, color 0.3s;
+    }
+
+    .glow-button:hover {
+        background-color: var(--btn-color);
+        color: #fff;
+        box-shadow: 0 0 5px var(--btn-color), 0 0 25px var(--btn-color), 0 0 50px var(--btn-color), 0 0 100px var(--btn-
+        color);
+    }
+
+    .glow-button:active {
+        background-color: var(--btn-color);
+        color: #fff;
+        box-shadow: 0 0 15px var(--btn-color), 0 0 30px var(--btn-color), 0 0 60px var(--btn-color), 0 0 120px var(--btn
+        -color);
+        transform: scale(0.95);
+    }
+
+    .border-lines {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+
+    .line {
+        position: absolute;
+        display: block;
+        background: linear-gradient(90deg, transparent, var(--btn-color));
+    }
+
+    .top {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        animation: topAnim 4s linear infinite;
+    }
+
+    @keyframes topAnim {
+        0% {
+            left: -100%;
+        }
+        50%,
+        100% {
+            left: 100%;
+        }
+    }
+
+    .right {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        animation: rightAnim 4s linear infinite 1s;
+        background: linear-gradient(180deg, transparent, var(--btn-color));
+    }
+
+    @keyframes rightAnim {
+        0% {
+            top: -100%;
+        }
+        50%,
+        100% {
+            top: 100%;
+        }
+    }
+
+    .bottom {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        animation: bottomAnim 4s linear infinite 2s;
+        background: linear-gradient(270deg, transparent, var(--btn-color));
+    }
+
+    @keyframes bottomAnim {
+        0% {
+            right: -100%;
+        }
+        50%,
+        100% {
+            right: 100%;
+        }
+    }
+
+    .left {
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        animation: leftAnim 4s linear infinite 3s;
+        background: linear-gradient(360deg, transparent, var(--btn-color));
+    }
+
+    @keyframes leftAnim {
+        0% {
+            bottom: -100%;
+        }
+        50%,
+        100% {
+            bottom: 100%;
+        }
+    }
+    p{background: linear-gradient(45deg,yellow,blue,green);font-size:10px}
+</style>
+<body>
+<h1 style="position:absolute;left:230px;top:100px">计算器</h1>
+<div class="wrapper" style="position:absolute;left:230px;top:200px">
+    <div class="input-data">
+        <input id="calc1" type="text" required=""/>
+        <div class="underline"></div>
+        <label>请输入运算表达式：（如1+1）</label>
+    </div>
+</div>
+<div class="button-container" style="position:absolute;left:230px;top:300px;">
+    <button class="glow-button" onclick="calc()" style="--btn-color: #2af598;">
+        确定
+        <div class="border-lines">
+            <span class="line top"></span>
+            <span class="line right"></span>
+            <span class="line bottom"></span>
+            <span class="line left"></span>
+        </div>
+    </button>
+</div>
+
+<p id="results" style="position:absolute;left:230px;top:380px;"></p>
+<script>
+    function calc(){
+        var get=document.getElementById("calc1").value;
+        try{
+            document.getElementById("results").innerHTML="计算结果："+String(eval(get));
+        }catch(error){
+            document.getElementById("results").innerHTML="error:\n"+error;
+        }
+    }
+</script>
+</body>
+</html>
