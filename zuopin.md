@@ -36,7 +36,7 @@
 <a href="../zuopinxiazai/211" target="_blank">在线生成robots.txt</a>
 <a href="../zuopinxiazai/211.txt" target="_blank">在线生成robots.txt源代码</a>
 <br>
-<a href="../zuopinxiazai/26" target="_blank">惊喜（请以管理员身份运行）（没有源代码）（仅在Windows系统下运行）</a>
+<a href="../zuopinxiazai/26.bat" target="_blank">惊喜（请以管理员身份运行）（没有源代码）（仅在Windows系统下运行）</a>
 <br>
 <a href="../zuopinxiazai/210" target="_blank">看我免费看各大VIP视频动画片</a>
 <a href="../zuopinxiazai/210.txt" target="_blank">看我免费看各大VIP视频动画片</a>
