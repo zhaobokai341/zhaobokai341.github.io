@@ -9,9 +9,9 @@
 </head>
 <body>
 <h1>GitHub</h1>
-<a href="../GitHub/GitHub1/111" target="_blank">GitHub无法访问？不要傻傻地修改hosts文件了</a>
+<a href="../11zhanlan/111" target="_blank">GitHub无法访问？不要傻傻地修改hosts文件了</a>
 <br>
-<a href="../GitHub/GitHub1/112" target="_blank">快新年了，给大家看一下我的GitHub的年度总结</a>
+<a href="../11zhanlan/GitHub1/112" target="_blank">快新年了，给大家看一下我的GitHub的年度总结</a>
 </body>
 </html>
 
