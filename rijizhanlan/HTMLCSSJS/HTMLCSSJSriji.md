@@ -9,6 +9,6 @@
 </head>
 <body>
 <h1>GitHub</h1>
-<a href="https://zhaobokai341.github.io/rijizhanlan/HTMLCSSJS/HTMLCSSJS1/121" target="_blank">炫酷CSS，让你的网站栩栩如生</a>
+<a href="../HTMLCSSJS/HTMLCSSJS1/121" target="_blank">炫酷CSS，让你的网站栩栩如生</a>
 </body>
 </html>
