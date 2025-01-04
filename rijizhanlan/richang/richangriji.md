@@ -9,6 +9,6 @@
 </head>
 <body>
 <h1>GitHub</h1>
-<a href="https://zhaobokai341.github.io/rijizhanlan/richang/richang1/耗时几天，我做了个作品" target="_blank">耗时几天，我做了个作品</a>
+<a href="https://zhaobokai341.github.io/rijizhanlan/richang/richang1/141" target="_blank">耗时几天，我做了个作品</a>
 </body>
 </html>
