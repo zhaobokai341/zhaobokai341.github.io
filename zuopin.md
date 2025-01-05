@@ -25,20 +25,20 @@
 <a href="../zuopinxiazai/25.py" download>浏览器命令源代码</a>  
 <br>
 <a href="../zuopinxiazai/29" target="_blank">网页版计算器</a>
-<a href="../zuopinxiazai/29.txt" target="_blank" download>网页版计算器源代码</a>
+<a href="../zuopinxiazai/29" target="_blank" download>网页版计算器源代码</a>
 <br>
 <a href="../zuopinxiazai/28" target="_blank">网页版计算器2</a>
-<a href="../zuopinxiazai/28.txt" target="_blank" download>网页版计算器源代码2</a>
+<a href="../zuopinxiazai/28" target="_blank" download>网页版计算器源代码2</a>
 <br>
 <a href="../zuopinxiazai/24.exe" download>密码模拟破解</a>
 <a href="../zuopinxiazai/24.py" download>密码模拟破解源代码</a>
 <br>
 <a href="../zuopinxiazai/211" target="_blank">在线生成robots.txt</a>
-<a href="../zuopinxiazai/211.txt" target="_blank" download>在线生成robots.txt源代码</a>
+<a href="../zuopinxiazai/211" target="_blank" download>在线生成robots.txt源代码</a>
 <br>
 <a href="../zuopinxiazai/26.cmd" target="_blank" download>惊喜（请以管理员身份运行）（没有源代码）（仅在Windows系统下运行）</a>
 <br>
 <a href="../zuopinxiazai/210" target="_blank">看我免费看各大VIP视频动画片</a>
-<a href="../zuopinxiazai/210.txt" target="_blank" download>看我免费看各大VIP视频动画片源代码</a>
+<a href="../zuopinxiazai/210" target="_blank" download>看我免费看各大VIP视频动画片源代码</a>
 </body>
 </html>
