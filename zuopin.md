@@ -40,5 +40,8 @@
 <br>
 <a href="../zuopinxiazai/210" target="_blank">看我免费看各大VIP视频动画片</a>
 <a href="../zuopinxiazai/210" target="_blank" download>看我免费看各大VIP视频动画片源代码</a>
+<br>
+<a href="../zuopinxiazai/212.exe" target="_blank" download>Unicode搜索</a>
+<a href="../zuopinxiazai/212.py" target="_blank" download>Unicode搜索源代码</a>
 </body>
 </html>
