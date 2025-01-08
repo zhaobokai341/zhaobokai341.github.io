@@ -43,5 +43,8 @@
 <br>
 <a href="../zuopinxiazai/212.exe" target="_blank" download>Unicode搜索</a>
 <a href="../zuopinxiazai/212.py" target="_blank" download>Unicode搜索源代码</a>
+<br>
+<a href="../zuopinxiazai/213.exe" target="_blank" download>ASCII加密解密</a>
+<a href="../zuopinxiazai/213.py" target="_blank" download>ASCII加密解密源代码</a>
 </body>
 </html>
