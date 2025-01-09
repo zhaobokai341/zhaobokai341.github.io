@@ -12,7 +12,6 @@
       a {
           color: pink;
       }
-
   </style>
 </head>
 <body>
@@ -73,6 +72,19 @@
   <a href="https://www.jetbrains.com.cn/" target="_blank">PyCharm</a>
   <a href="https://code.visualstudio.com/" target="_blank">VScode</a>
   <a href="https://visualstudio.microsoft.com/" target="_blank">Visual Studio</a>
+  <a href="https://www.jetbrains.com/webstorm/" target="_blank">WebStorm</a>
+  <a href="https://www.jetbrains.com/idea/" target="_blank">IntelliJ IDEA</a>
+  <a href="https://www.jetbrains.com/clion/" target="_blank">CLion</a>
+  <a href="https://www.jetbrains.com/phpstorm/" target="_blank">PHPStorm</a>
+  <a href="https://www.jetbrains.com/ruby/" target="_blank">RubyMine</a>
+  <a href="https://www.jetbrains.com/go/" target="_blank">GoLand</a>
+  <a href="https://www.jetbrains.com/scala/" target="_blank">Scala</a>
+  <a href="https://www.jetbrains.com/kotlin/" target="_blank">Kotlin</a>
+  <a href="https://www.jetbrains.com/resharper/" target="_blank">ReSharper</a>
+  <a href="https://www.jetbrains.com/dotnet/" target="_blank">.NET</a>
+  <a href="https://www.jetbrains.com/datagrip/" target="_blank">DataGrip</a>
+  <a href="https://www.jetbrains.com/dataspell/" target="_blank">DataSpell</a>
+  <a href="https://www.jetbrains.com/resharper/" target="_blank">ReSharper</a>
 </div>
 <div id="AI">
   <h2>AI</h2>
