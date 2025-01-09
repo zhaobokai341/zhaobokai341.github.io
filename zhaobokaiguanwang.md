@@ -69,8 +69,8 @@
     </tr>
   </table>
   <a href="https://zhaobokai341.github.io/gengxin" style="font-size:30px;color:red;">查看更多</a>
+  <br>
 </div>
-<br>
 <div id="about">
   <h2>常见问题</h2>
   <a href="https://zhaobokai341.github.io/wenti" style="font-size:30px;color:red;">点击此处</a>
