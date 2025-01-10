@@ -41,7 +41,7 @@
   <h3>杀毒软件</h3>
   <a href="https://www.360.cn/" target="_blank">360</a>
   <br>
-  <a href="https://zhaobokai341.github.io/gongju" style="font-size:30px;color:red;">查看更多</a>
+  <a href="https://zhaobokai341.github.io/gongju" style="font-size:30px;color:red;" target="_blank">查看更多</a>
 </div>
 <div id="opus">
   <h2>作品（杀毒软件和浏览器可能会误报）</h2>
@@ -50,11 +50,11 @@
   <a href="../zuopinxiazai/22.exe" download>随机数</a>
   <a href="../zuopinxiazai/22.py" download>随机数源代码</a>
   <br>
-  <a href="https://zhaobokai341.github.io/zuopin" style="font-size:30px;color:red;">查看更多</a>
+  <a href="https://zhaobokai341.github.io/zuopin" style="font-size:30px;color:red;" target="_blank">查看更多</a>
 </div>
 <div id="diary">
   <h2>日记</h2>
-  <a href="https://zhaobokai341.github.io/riji" style="font-size:30px;color:red;">点击此处</a>
+  <a href="https://zhaobokai341.github.io/riji" style="font-size:30px;color:red;" target="_blank">点击此处</a>
 </div>
 <div id="update">
   <h2>网站更新历史</h2>
@@ -68,12 +68,12 @@
       <th>网站完成了基本构造</th>
     </tr>
   </table>
-  <a href="https://zhaobokai341.github.io/gengxin" style="font-size:30px;color:red;">查看更多</a>
+  <a href="https://zhaobokai341.github.io/gengxin" style="font-size:30px;color:red;" target="_blank">查看更多</a>
   <br>
 </div>
 <div id="about">
   <h2>常见问题</h2>
-  <a href="https://zhaobokai341.github.io/wenti" style="font-size:30px;color:red;">点击此处</a>
+  <a href="https://zhaobokai341.github.io/wenti" style="font-size:30px;color:red;" target="_blank">点击此处</a>
   <h3>作者：<a href="https://zhaobokai341.github.io/zhaobokai">赵博凯</a></h3>
   <p>如要联系，请打开<a href="mailto:13935190240@163.com">13935190240@163.com网易邮箱</a>或<a href="https://space.bilibili.com/1458747461" target="_blank">B站@编程博凯</a></p>
   <a href="https://github.com/zhaobokai341/zhaobokai341.github.io" target="_blank">我的GitHub仓库</a>
