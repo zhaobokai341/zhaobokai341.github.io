@@ -1,3 +1,5 @@
+#作者：赵博凯
+#语言：Python
 import tkinter as tk
 from unicodedata import name
 from selenium import webdriver
