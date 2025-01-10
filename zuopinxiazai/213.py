@@ -1,3 +1,5 @@
+#作者：赵博凯
+#语言：Python
 from pyperclip import copy
 
 
