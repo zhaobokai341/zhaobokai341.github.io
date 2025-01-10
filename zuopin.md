@@ -15,13 +15,13 @@
 <a href="../zuopinxiazai/22.exe" download>随机数</a>
 <a href="../zuopinxiazai/22.py" download>随机数源代码</a>
 <br>
-<a href="../zuopinxiazai/27.exe" download>计算器（需要在D盘里新建一个文件夹，名称为：“新建文件夹”）</a>
+<a href="../zuopinxiazai/27.exe" download>计算器（仅限Windows系统运行，需要D盘）</a>
 <a href="../zuopinxiazai/27.py" download>计算器源代码</a>
 <br>
 <a href="../zuopinxiazai/23.exe" download>石头剪刀布</a>
 <a href="../zuopinxiazai/23.py" download>石头剪刀布源代码</a>   
 <br>
-<a href="../zuopinxiazai/25.exe" download>浏览器命令</a>
+<a href="../zuopinxiazai/25.exe" download>浏览器命令（需配置Edge驱动（一般Edge安装时就行）（Windows及以上自带Edge）</a>
 <a href="../zuopinxiazai/25.py" download>浏览器命令源代码</a>  
 <br>
 <a href="../zuopinxiazai/29" target="_blank">网页版计算器</a>
@@ -41,7 +41,7 @@
 <a href="../zuopinxiazai/210" target="_blank">看我免费看各大VIP视频动画片</a>
 <a href="../zuopinxiazai/210" target="_blank" download>看我免费看各大VIP视频动画片源代码</a>
 <br>
-<a href="../zuopinxiazai/212.exe" target="_blank" download>Unicode搜索</a>
+<a href="../zuopinxiazai/212.exe" target="_blank" download>Unicode搜索（需配置Chrome驱动（一般Chrome安装时就行））</a>
 <a href="../zuopinxiazai/212.py" target="_blank" download>Unicode搜索源代码</a>
 <br>
 <a href="../zuopinxiazai/213.exe" target="_blank" download>ASCII加密解密</a>
