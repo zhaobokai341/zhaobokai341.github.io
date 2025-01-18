@@ -26,6 +26,7 @@
 <br>
 <a href="../zuopinxiazai/212.zip" target="_blank" download="Unicode搜索.zip">Unicode搜索</a>
 <br>
+<a href="../zuopinxiazai/213.zip" target="_blank" download="ASCII加密解密.zip">ASCII加密解密</a>
 <h2>HTML作品</h2>
 <a href="../zuopinxiazai/29" target="_blank">网页版计算器</a>
 <a href="../zuopinxiazai/29" target="_blank" download="网页版计算器.html">网页版计算器源代码</a>
