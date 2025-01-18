@@ -45,10 +45,8 @@
 </div>
 <div id="opus">
   <h2>作品（杀毒软件和浏览器可能会误报）</h2>
-  <a href="../zuopinxiazai/21.exe" download>赵博凯下载器</a>
-  <a href="../zuopinxiazai/21.py" download>赵博凯下载器源代码</a>
-  <a href="../zuopinxiazai/22.exe" download>随机数</a>
-  <a href="../zuopinxiazai/22.py" download>随机数源代码</a>
+  <a href="../zuopinxiazai/21.zip" download="赵博凯下载器.zip">赵博凯下载器</a>
+  <a href="../zuopinxiazai/22.zip" download="随机数.zip">随机数</a>
   <br>
   <a href="https://zhaobokai341.github.io/zuopin" style="font-size:30px;color:red;" target="_blank">查看更多</a>
 </div>
