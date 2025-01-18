@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>日记</h1>
-<a href="../rijizhanlan/11/11riji">关于Githb</a>
+<a href="../rijizhanlan/11/11riji">关于Github</a>
 <br>
 <a href="../rijizhanlan/13/13riji">关于Python</a>
 <br>
