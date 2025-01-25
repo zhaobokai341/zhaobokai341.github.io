@@ -8,7 +8,7 @@
     </style>
 </head>
 <body>
-<h1>GitHub</h1>
+<h1>日常</h1>
 <a href="../14/14zhanlan/141" target="_blank">耗时几天，我做了个作品</a>
 </body>
 </html>
