@@ -8,7 +8,7 @@
     </style>
 </head>
 <body>
-<h1>GitHub</h1>
+<h1>Python</h1>
 <a href="../13/13zhanlan/131" target="_blank">No Python at ... 错误解决</a>
 </body>
 </html>
