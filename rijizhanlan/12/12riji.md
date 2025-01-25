@@ -8,7 +8,7 @@
     </style>
 </head>
 <body>
-<h1>GitHub</h1>
+<h1>HTML/CSS/JavaScript</h1>
 <a href="../12/12zhanlan/121" target="_blank">炫酷CSS，让你的网站栩栩如生</a>
 </body>
 </html>
