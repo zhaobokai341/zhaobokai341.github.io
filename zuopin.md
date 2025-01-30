@@ -29,7 +29,7 @@
   <br>
   <a href="../zuopinxiazai/213.zip" target="_blank" download="ASCII加密解密.zip">ASCII加密解密</a>
   <br>
-  <a href="../zuopinxiazai/214.zip" target="_blank" download="赵博凯恶搞电脑病毒（仅限Windows操作系统运行）（管理员身份运行更佳）.zip">赵博凯恶搞电脑病毒（仅限Windows操作系统运行）</a>
+  <a href="../zuopinxiazai/214.zip" target="_blank" download="赵博凯恶搞电脑病毒（仅限Windows操作系统运行）.zip">赵博凯恶搞电脑病毒（仅限Windows操作系统运行）（管理员身份运行更佳）</a>
 </div>
 <div id="html">
   <h2>HTML作品</h2>
