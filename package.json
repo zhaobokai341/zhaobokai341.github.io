@@ -1,0 +1,17 @@
+{
+  "name": "zhaobokai-website",
+  "version": "1.7.2",
+  "description": "赵博凯的个人网站",
+  "keywords": [
+    "个人网站",
+    "赵博凯",
+    "日记",
+    "作品"
+  ],
+  "author": "赵博凯",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
