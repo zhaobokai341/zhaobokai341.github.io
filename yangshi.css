@@ -1,3 +1,11 @@
+p {
+    font-size: 20px;
+    color: yellow
+}
+
+a {
+    color: pink;
+}
 body {
     margin: 60px;
     width: 100%;
@@ -30,14 +38,5 @@ h1 {
     0 3px 0 #a0a0a0,
     0 4px 0 #909090,
     0 5px 10px rgba(0, 0, 0, .9);
-}
-
-p {
-    font-size: 20px;
-    color: yellow
-}
-
-a {
-    color: pink;
 }
 
