@@ -45,7 +45,7 @@
 <script src="../js/marked.js"></script>
 <script>
     const id = new URLSearchParams(window.location.search).get('id');
-    const API_URL = 'http://localhost:1234/zhaobokai/diary/diary_api.php?id=' + id;
+    const API_URL = 'https://zhaobokai341.github.io/diary/diary_api.php?id=' + id;
     let div = document.getElementById('container-lg px-3 my-5 markdown-body');
     fetch(API_URL, {
         method: 'GET'
