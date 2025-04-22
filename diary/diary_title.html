@@ -47,7 +47,7 @@
         'python': 'Python',
         'other': '其他'
     }
-    const API_URL = 'http://localhost:1234/zhaobokai/diary/diary_api.php?type=' + type;
+    const API_URL = 'https://zhaobokai341.github.io/diary/diary_api.php?type=' + type;
     let div = document.getElementById('container-lg px-3 my-5 markdown-body');
     fetch(API_URL, {
         method: 'GET'
