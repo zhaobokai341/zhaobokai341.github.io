@@ -6,9 +6,9 @@ function changeTheme(theme) {
 let html = `<div id="theme-menu">
     <label for="theme">选择主题：</label>
     <select id="theme" onchange="changeTheme(this.value)">
-        <option value="http://localhost:1234/zhaobokai/style/rainbow.css">彩虹色</option>
-        <option value="http://localhost:1234/zhaobokai/style/white.css">亮色</option>
-        <option value="http://localhost:1234/zhaobokai/style/dark.css">暗色</option>
+        <option value="https://zhaobokai341.github.io/style/rainbow.css">彩虹色</option>
+        <option value="https://zhaobokai341.github.io/style/white.css">亮色</option>
+        <option value="https://zhaobokai341.github.io/style/dark.css">暗色</option>
     </select>
 </div>`
 
