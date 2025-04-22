@@ -1,11 +1,11 @@
 let css_link_list = [
-    'http://localhost:1234/zhaobokai/style/rainbow.css',
-    'http://localhost:1234/zhaobokai/style/beautify.css',
-    'http://localhost:1234/zhaobokai/style/css_select_options.css',
+    'https://zhaobokai341.github.io/style/rainbow.css',
+    'https://zhaobokai341.github.io/style/beautify.css',
+    'https://zhaobokai341.github.io/style/css_select_options.css',
 ]
 
 let js_link_list = [
-    'http://localhost:1234/zhaobokai/js/css_select.js'
+    'https://zhaobokai341.github.io/js/css_select.js'
 ]
 
 
