@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>赵博凯 | 我的个人网站</title>
+    <meta name="generator" content="Jekyll v3.10.0"/>
+    <meta property="og:title" content="赵博凯"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta name="description" content="我的个人网站"/>
+    <meta property="og:description" content="我的个人网站"/>
+    <link rel="canonical" href="https://zhaobokai341.github.io/gongju.html"/>
+    <meta property="og:url" content="https://zhaobokai341.github.io/gongju.html"/>
+    <meta property="og:site_name" content="赵博凯"/>
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta property="twitter:title" content="赵博凯"/>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "description": "我的个人网站",
+            "headline": "赵博凯",
+            "url": "https://zhaobokai341.github.io/gongju.html"
+        }
+    </script>
+
+
+</head>
+<body>
+<div class="container-lg px-3 my-5 markdown-body" id="container-lg px-3 my-5 markdown-body">
+
+    <h1><a href="https://zhaobokai341.github.io/">赵博凯</a></h1>
+    <div id="$m" class="markdown-body"></div>
+    <textarea id="$t" style="display:none">
+  </textarea>
+</div>
+<script src="../js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+        integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+<script>anchors.add();</script>
+<script src="../js/marked.js"></script>
+<script>
+    const id = new URLSearchParams(window.location.search).get('id');
+    const API_URL = 'http://localhost:1234/zhaobokai/diary/diary_api.php?id=' + id;
+    let div = document.getElementById('container-lg px-3 my-5 markdown-body');
+    fetch(API_URL, {
+        method: 'GET'
+    }).then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+    }).then(data => {
+        document.getElementById('$t').innerHTML = data['diary']['content'];
+        $m.innerHTML = marked.parse($t.value);
+    }).catch(error => {
+        console.error('There has been a problem with your fetch operation:', error);
+    });
+</script>
+</body>
+</html>
