@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>赵博凯 | 我的个人网站</title>
+    <meta name="generator" content="Jekyll v3.10.0"/>
+    <meta property="og:title" content="赵博凯"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta name="description" content="我的个人网站"/>
+    <meta property="og:description" content="我的个人网站"/>
+    <link rel="canonical" href="https://zhaobokai341.github.io/gongju.html"/>
+    <meta property="og:url" content="https://zhaobokai341.github.io/gongju.html"/>
+    <meta property="og:site_name" content="赵博凯"/>
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta property="twitter:title" content="赵博凯"/>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "description": "我的个人网站",
+            "headline": "赵博凯",
+            "url": "https://zhaobokai341.github.io/gongju.html"
+        }
+    </script>
+
+
+</head>
+<body>
+<div class="container-lg px-3 my-5 markdown-body" id="container-lg px-3 my-5 markdown-body">
+
+    <h1><a href="https://zhaobokai341.github.io/">赵博凯</a></h1>
+</div>
+<script src="../js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+        integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+<script>anchors.add();</script>
+<script>
+    const type = new URLSearchParams(window.location.search).get('type');
+    const type_list = {
+        'github': 'Github',
+        'htmlcssjs': 'HTML&CSS&JS',
+        'python': 'Python',
+        'other': '其他'
+    }
+    const API_URL = 'http://localhost:1234/zhaobokai/diary/diary_api.php?type=' + type;
+    let div = document.getElementById('container-lg px-3 my-5 markdown-body');
+    fetch(API_URL, {
+        method: 'GET'
+    }).then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+    }).then(data => {
+        let content = data['diary'];
+        let diary_url = 'diary.html?id=';
+        div.innerHTML += `<h1>${type_list[type]}</h1>`;
+        for (let i = 0; i < content.length; i++) {
+            let title = content[i]['title'];
+            let id = content[i]['id'];
+            div.innerHTML += `<a href="${diary_url + id}" target="_blank">${title}</a>`;
+            div.innerHTML += '<br>';
+        }
+    }).catch(error => {
+        console.error('There has been a problem with your fetch operation:', error);
+    });
+</script>
+</body>
+</html>
