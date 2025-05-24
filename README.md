@@ -1,6 +1,6 @@
 # 赵博凯的个人网站
 
-欢迎访问[我的个人网站](https://zhaobokai341.github.io/shouye.html)，这里记录了我的一些作品和日常分享。
+欢迎访问[我的个人网站](https://zhaobokai341.github.io/verify.html)，这里记录了我的一些作品和日常分享。
 这个网站随时都会更新，没准这个月还是这个样子的，下个月是那个样子了。
 
 ## 项目结构
@@ -8,73 +8,68 @@
 ### 根目录
 
 - **README.md**: 项目的说明文档。
-- **gengxin.html**: 更新页面。
-- **gongju.html**: 工具页面。
-- **riji.html**: 日记主页面。
-- **shouye.html**: 首页。
-- **style.css**: 样式表。
-- **wenti.html**: 问题页面。
-- **xieyi.html**: 协议页面。
-- **yangshi.css**: 自定义样式表。
+- **home.html**: 首页。
+- **my_diary.html**: 日记主页面。
+- **my_opus.html**: 作品页面。
+- **tool.html**: 工具页面。
+- **update.html**: 更新页面。
+- **question.html**: 问题页面。
+- **agreement.html**: 协议页面。
 - **zhaobokai.html**: 赵博凯简介页面。
-- **zhaobokaiguanwang.html**: 网站主页。
-- **zuopin.html**: 作品页面。
+- **verify.html**: 验证页面。
+- **test.html**, **test2.html**, **test.js**: 测试文件。
 
 ### 目录结构
 
-#### assets/css
+#### style
 
-- **style.css**: 主要样式表。
+- **beautify.css**: 美化样式。
+- **dark.css**: 暗色主题样式。
+- **white.css**: 亮色主题样式。
+- **rainbow.css**: 彩虹主题样式。
+- **css_select_options.css**: CSS选择器选项样式。
 
-#### rijizhanlan
+#### js
 
-- **11**
-    - **11riji.html**: 日记页面。
-    - **11zhanlan**
-        - **111.html**: 子页面。
-        - **112.html**: 子页面。
-- **12**
-    - **12riji.html**: 日记页面。
-    - **12zhanlan**
-        - **121.html**: 子页面。
-- **13**
-    - **13riji.html**: 日记页面。
-    - **13zhanlan**
-        - **131.html**: 子页面。
-- **14**
-    - **14riji.html**: 日记页面。
-    - **14zhanlan**
-        - **141.html**: 子页面。
-- **15**
-    - **15riji.html**: 日记页面。
-    - **15zhanlan**
-        - **151.html**: 子页面。
-        - **152.html**: 子页面。
-        - **153.html**: 子页面。
-        - **154.html**: 子页面。
+- **main.js**: 主要JavaScript文件。
+- **marked.js**: Markdown解析器。
+- **css_select.js**: CSS选择器脚本。
 
-#### zuopinxiazai
+#### diary
 
-- **210.html**: 下载页面。
-- **211.html**: 下载页面。
+- **diary.html**: 日记页面。
+- **diary_title.html**: 日记标题页面。
+- **diary_api.html**: 日记API页面。
+- **content/**: 日记内容目录，包含多个Markdown文件。
+- **dongxi/**: 日记相关资源目录。
+- **github.json**, **python.json**, **HTML&CSS&JS.json**, **other.json**: 日记分类数据文件。
+
+#### opus
+
+- 多个HTML文件和ZIP压缩包，用于作品展示和下载。
+- **210.html**, **211.html**: 作品展示页面。
+- **21.zip**, **22.zip**, **23.zip**等: 作品下载文件。
 - **26.cmd**: 命令脚本。
-- **28.html**: 下载页面。
-- **29.html**: 下载页面。
 
-# 项目构建
+#### img
 
-- 目前用`HTML,CSS和JavaScript`制作，没有Vue.js，也没有React.js，也没有其他框架，纯原生。
-- 此项目没有使用任何依赖库，没有使用任何第三方模板，也没有使用任何第三方主题，也没有使用任何第三方主题模板，也没有使用任何第三方主题插件，也没有使用任何第三方主题服务，也没有使用任何第三方主题API，也没有使用任何第三方主题插件。
-- 只有前端，没有后端。
-- 你只需要安装Node.js，就可以运行这个项目了。
+- **my_photo.jpg**: 个人照片。
 
-# 联系我们
+# 技术特点
 
-如果你有任何问题或建议，请通过以下方式联系我们：
+- 采用原生`HTML, CSS和JavaScript`开发，没有使用Vue.js、React.js或其他前端框架，纯原生实现。
+- 支持Markdown格式的日记内容（使用marked.js解析）。
+- 提供多种主题切换功能（暗色、亮色、彩虹等主题）。
+- 纯静态前端项目，无需后端支持。
+- 简单易部署，只需要基本的Web服务器环境。
+
+# 联系我
+
+如果你有任何问题或建议，请通过以下方式联系我：
 
 - 网易邮箱：13935190240@163.com
 - B站私信：[编程博凯](https://space.bilibili.com/1458747461)
 - Github：[zhaobokai341](https://github.com/zhaobokai341)
 
-个人网站[https://zhaobokai341.github.io/shouye.html](https://zhaobokai341.github.io/shouye.html)  
+个人网站[https://zhaobokai341.github.io/verify.html](https://zhaobokai341.github.io/verify.html)  
 喜欢的就来个Star吧！😊😊😊
