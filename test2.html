@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub日记数据</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        h1 {
+            color: #333;
+        }
+        .loading {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>GitHub日记数据</h1>
+
+    <pre id="json-data" class="loading">加载中...</pre>
+
+    <script>
+        // 页面加载完成后获取GitHub日记数据
+        document.addEventListener('DOMContentLoaded', () => {
+            const jsonDisplay = document.getElementById('json-data');
+
+            // 使用fetch API获取github.json文件
+            fetch('diary/github.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP错误! 状态: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // 格式化并显示JSON数据
+                    jsonDisplay.textContent = JSON.stringify(data, null, 2);
+                    jsonDisplay.classList.remove('loading');
+                })
+                .catch(error => {
+                    jsonDisplay.textContent = `获取数据时出错: ${error.message}`;
+                    jsonDisplay.style.color = 'red';
+                });
+        });
+    </script>
+</body>
+</html>
