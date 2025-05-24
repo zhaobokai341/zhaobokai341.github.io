@@ -39,6 +39,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
         integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
 <script>anchors.add();</script>
+<script src="../js/diary_api.js"></script>
 <script>
     const type = new URLSearchParams(window.location.search).get('type');
     const type_list = {
@@ -47,28 +48,27 @@
         'python': 'Python',
         'other': '其他'
     }
-    const API_URL = 'https://zhaobokai341.github.io/diary/diary_api.php?type=' + type;
+    
     let div = document.getElementById('container-lg px-3 my-5 markdown-body');
-    fetch(API_URL, {
-        method: 'GET'
-    }).then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok ' + response.statusText);
-        }
-        return response.json();
-    }).then(data => {
-        let content = data['diary'];
-        let diary_url = 'diary.html?id=';
-        div.innerHTML += `<h1>${type_list[type]}</h1>`;
-        for (let i = 0; i < content.length; i++) {
-            let title = content[i]['title'];
-            let id = content[i]['id'];
-            div.innerHTML += `<a href="${diary_url + id}" target="_blank">${title}</a>`;
-            div.innerHTML += '<br>';
-        }
-    }).catch(error => {
-        console.error('There has been a problem with your fetch operation:', error);
-    });
+    
+    // 使用新的DiaryAPI类获取日记列表
+    DiaryAPI.getDiaryList(type)
+        .then(data => {
+            let content = data.diary;
+            let diary_url = 'diary.html?id=';
+            div.innerHTML += `<h1>${type_list[type]}</h1>`;
+            content = content.diary;
+            for (let i = 0; i < content.length; i++) {
+                let title = content[i]['title'];
+                let id = content[i]['id'];
+                div.innerHTML += `<a href="${diary_url + id}" target="_blank">${title}</a>`;
+                div.innerHTML += '<br>';
+            }
+        })
+        .catch(error => {
+            console.error('获取日记列表时出错:', error);
+            div.innerHTML += '<p>加载日记列表失败，请稍后再试。</p>';
+        });
 </script>
 </body>
 </html>
