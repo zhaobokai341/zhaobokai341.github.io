@@ -43,23 +43,20 @@
         integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
 <script>anchors.add();</script>
 <script src="../js/marked.js"></script>
+<script src="../js/diary_api.js"></script>
 <script>
     const id = new URLSearchParams(window.location.search).get('id');
-    const API_URL = 'https://zhaobokai341.github.io/diary/diary_api.php?id=' + id;
-    let div = document.getElementById('container-lg px-3 my-5 markdown-body');
-    fetch(API_URL, {
-        method: 'GET'
-    }).then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok ' + response.statusText);
-        }
-        return response.json();
-    }).then(data => {
-        document.getElementById('$t').innerHTML = data['diary']['content'];
-        $m.innerHTML = marked.parse($t.value);
-    }).catch(error => {
-        console.error('There has been a problem with your fetch operation:', error);
-    });
+    
+    // 使用新的DiaryAPI类获取日记内容
+    DiaryAPI.getDiaryContent(id)
+        .then(data => {
+            document.getElementById('$t').innerHTML = data.diary.content;
+            $m.innerHTML = marked.parse($t.value);
+        })
+        .catch(error => {
+            console.error('获取日记内容时出错:', error);
+            $m.innerHTML = '<p>加载日记内容失败，请稍后再试。</p>';
+        });
 </script>
 </body>
 </html>
