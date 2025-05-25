@@ -3,7 +3,7 @@ body {
     margin: 60px;
     width: 100%;
     height: 100vh;
-    background-image: url('https://zhaobokai341.github.io/img/my_photo.jpg'); /* 替换为你的小格子图像 */
+    background-image: url('https://zhaobokai341.github.io/img/my_photo2.jpg'); /* 替换为你的小格子图像 */
     background-size: 400px 225px; /* 控制每个小格子的大小 */
     background-repeat: repeat; /* 确保图像在水平和垂直方向重复 */
     background-attachment: fixed;
