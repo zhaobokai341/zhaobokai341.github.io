@@ -9,7 +9,7 @@ let html = `<div id="theme-menu">
         <option value="https://zhaobokai341.github.io/style/rainbow.css">彩虹色</option>
         <option value="https://zhaobokai341.github.io/style/white.css">亮色</option>
         <option value="https://zhaobokai341.github.io/style/dark.css">暗色</option>
-        <option value="https://zhaobokai341.github.io/style/zhaobokai.css">赵博凯</option>
+        <option value="/style/zhaobokai.css">赵博凯</option>
     </select>
 </div>`
 
