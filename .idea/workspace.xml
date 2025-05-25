@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e8f9d81-8610-444d-9e83-339bde415a63" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/css_select.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/css_select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/zhaobokai.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/zhaobokai.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaobokai.html" beforeDir="false" afterPath="$PROJECT_DIR$/zhaobokai.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748158804612</updated>
       <workItem from="1748158806589" duration="3850000" />
-      <workItem from="1748166778018" duration="3019000" />
+      <workItem from="1748166778018" duration="3672000" />
     </task>
     <servers />
   </component>
