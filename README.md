@@ -70,5 +70,10 @@
 - B站私信：[编程博凯](https://space.bilibili.com/1458747461)
 - Github：[zhaobokai341](https://github.com/zhaobokai341)
 
+扫描下方二维码，可以快速访问我的个人网站：
+
+![个人网站二维码](img/my_qrcode.png)
+
+
 个人网站[https://zhaobokai341.github.io/verify.html](https://zhaobokai341.github.io/verify.html)  
 喜欢的就来个Star吧！😊😊😊
