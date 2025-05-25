@@ -53,6 +53,7 @@
 #### img
 
 - **my_photo.jpg**: 个人照片。
+- **my_qrcode.png**: 个人网站二维码
 
 # 技术特点
 
