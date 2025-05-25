@@ -5,7 +5,7 @@ let css_link_list = [
 ]
 
 let js_link_list = [
-    'https://zhaobokai341.github.io/js/css_select.js'
+    '/js/css_select.js'
 ]
 
 
