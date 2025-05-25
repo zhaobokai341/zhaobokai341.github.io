@@ -1,6 +1,5 @@
 {
   "name": "zhaobokai-website",
-  "version": "1.9.3",
   "description": "赵博凯的个人网站",
   "keywords": [
     "个人网站",
@@ -9,8 +8,5 @@
     "作品"
   ],
   "author": "赵博凯",
-  "license": "MIT",
-  "dependencies": {
-    "marked": "^15.0.8"
-  }
+  "license": "MIT"
 }
