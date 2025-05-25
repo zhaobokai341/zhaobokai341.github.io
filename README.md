@@ -14,8 +14,7 @@
 - **tool.html**: 工具页面。
 - **update.html**: 更新页面。
 - **question.html**: 问题页面。
-- **agreement.html**: 协议页面。
-- **zhaobokai.html**: 赵博凯简介页面。
+- **zhaobokai.html**: 赵博凯自我介绍页面。
 - **verify.html**: 验证页面。
 - **test.html**, **test2.html**, **test.js**: 测试文件。
 
