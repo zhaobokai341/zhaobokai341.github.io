@@ -17,6 +17,9 @@
 - **zhaobokai.html**: 赵博凯自我介绍页面。
 - **verify.html**: 验证页面。
 - **test.html**, **test2.html**, **test.js**: 测试文件。
+- **favicon.ico**: 网站图标。
+- **robots.txt**: 搜索引擎爬虫配置文件。
+- **package.json**: 项目配置文件。
 
 ### 目录结构
 
@@ -26,6 +29,7 @@
 - **dark.css**: 暗色主题样式。
 - **white.css**: 亮色主题样式。
 - **rainbow.css**: 彩虹主题样式。
+- **zhaobokai.css**: 个性化主题样式，使用个人照片作为半透明背景。
 - **css_select_options.css**: CSS选择器选项样式。
 
 #### js
@@ -33,14 +37,18 @@
 - **main.js**: 主要JavaScript文件。
 - **marked.js**: Markdown解析器。
 - **css_select.js**: CSS选择器脚本。
+- **diary_api.js**: 日记API处理脚本。
 
 #### diary
 
 - **diary.html**: 日记页面。
 - **diary_title.html**: 日记标题页面。
 - **diary_api.html**: 日记API页面。
-- **content/**: 日记内容目录，包含多个Markdown文件。
-- **dongxi/**: 日记相关资源目录。
+- **content/**: 日记内容目录，包含多个Markdown文件（11.md, 12.md等）。
+- **dongxi/**: 日记相关资源目录，包含图片和视频文件。
+  - **112/**: 包含编程相关图片和视频
+  - **152/**: 包含工具演示视频
+  - **154/**: 包含其他图片资源
 - **github.json**, **python.json**, **HTML&CSS&JS.json**, **other.json**: 日记分类数据文件。
 
 #### opus
@@ -52,15 +60,19 @@
 
 #### img
 
-- **my_photo.jpg**: 个人照片。
+- **my_photo.jpg**: 个人照片，也用作个性化主题背景。
 - **my_photo2.jpg**: 个人鬼畜照片。
-- **my_qrcode.png**: 个人网站二维码
+- **my_qrcode.png**: 个人网站二维码。
 
 # 技术特点
 
 - 采用原生`HTML, CSS和JavaScript`开发，没有使用Vue.js、React.js或其他前端框架，纯原生实现。
 - 支持Markdown格式的日记内容（使用marked.js解析）。
-- 提供多种主题切换功能（暗色、亮色、彩虹等主题）。
+- 提供多种主题切换功能：
+  - 暗色主题：适合夜间阅读
+  - 亮色主题：清爽简洁
+  - 彩虹主题：缤纷多彩
+  - 个性化主题：使用个人照片作为半透明背景
 - 纯静态前端项目，无需后端支持。
 - 简单易部署，只需要基本的Web服务器环境。
 
