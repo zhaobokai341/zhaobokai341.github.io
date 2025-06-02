@@ -4,6 +4,12 @@
     <option name="conversations">
       <list>
         <Conversation>
+          <option name="createTime" value="1748869972124" />
+          <option name="id" value="019730c6009c712bbd30d6f4f5f7f880" />
+          <option name="title" value="新对话 2025年6月02日 21:12:52" />
+          <option name="updateTime" value="1748869972124" />
+        </Conversation>
+        <Conversation>
           <option name="createTime" value="1748166783982" />
           <option name="id" value="019706dc37747bb68a77078836de3ded" />
           <option name="title" value="将这个背景图像改成许多图像，就像很多小格子" />
