@@ -35,11 +35,6 @@
 
     <h1><a href="https://zhaobokai341.github.io/">赵博凯</a></h1>
     <div id="$m" class="markdown-body"></div>
-    <!-- 评论区容器 -->
-    <div class="comments-section">
-        <h3>评论区</h3>
-        <div id="utterances-comments"></div>
-    </div>
     <textarea id="$t" style="display:none">
         
   </textarea>
@@ -62,35 +57,14 @@
         .catch(error => {
             console.error('获取日记内容时出错:', error);
             $m.innerHTML = '<p>加载日记内容失败，请稍后再试。</p>';
-        })
-        .finally(() => {
-            // 配置 Utterances
-            const utterancesConfig = document.createElement('script');
-            utterancesConfig.src = 'https://utteranc.es/client.js';
-            utterancesConfig.setAttribute('repo', 'zhaobokai341/zhaobokai341.github.io');
-            // 使用日记ID作为issue标识，确保每篇日记有独立的评论
-            utterancesConfig.setAttribute('issue-term', 'pathname');
-            utterancesConfig.setAttribute('theme', 'github-light');
-            utterancesConfig.setAttribute('crossorigin', 'anonymous');
-            utterancesConfig.async = true;
-
-            // 将评论区添加到页面
-            document.getElementById('utterances-comments').appendChild(utterancesConfig);
         });
 </script>
-
-<!-- 添加评论区样式 -->
-<style>
-    .comments-section {
-        margin-top: 2rem;
-        padding-top: 2rem;
-        border-top: 1px solid #eaecef;
-    }
-    
-    .comments-section h3 {
-        margin-bottom: 1rem;
-        color: #24292e;
-    }
-</style>
+<script src="https://utteranc.es/client.js"
+        repo="zhaobokai341/zhaobokai341.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 </body>
 </html>
