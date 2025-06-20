@@ -35,6 +35,11 @@
 
     <h1><a href="https://zhaobokai341.github.io/">赵博凯</a></h1>
     <div id="$m" class="markdown-body"></div>
+    <!-- 评论区容器 -->
+    <div class="comments-section">
+        <h3>评论区</h3>
+        <div id="utterances-comments"></div>
+    </div>
     <textarea id="$t" style="display:none">
         
   </textarea>
@@ -58,13 +63,6 @@
             console.error('获取日记内容时出错:', error);
             $m.innerHTML = '<p>加载日记内容失败，请稍后再试。</p>';
         });
-</script>
-<script src="https://utteranc.es/client.js"
-        repo="zhaobokai341/zhaobokai341.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
 </script>
 </body>
 </html>
