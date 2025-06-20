@@ -57,7 +57,12 @@
     const utterancesScript = document.createElement('script');
     utterancesScript.src = 'https://utteranc.es/client.js';
     utterancesScript.setAttribute('repo', 'zhaobokai341/zhaobokai341.github.io');
-    utterancesScript.setAttribute('issue-term', `diary-${id}`); // 使用日记ID作为唯一标识
+    
+    // 使用issue-number而不是issue-term
+    // 为每个日记ID创建一个固定的issue number (例如: 日记ID + 1000)
+    const issueNumber = parseInt(id) + 1000;
+    utterancesScript.setAttribute('issue-number', issueNumber);
+    
     utterancesScript.setAttribute('theme', 'github-light');
     utterancesScript.setAttribute('crossorigin', 'anonymous');
     utterancesScript.async = true;
