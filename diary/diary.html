@@ -59,8 +59,7 @@
     utterancesScript.setAttribute('repo', 'zhaobokai341/zhaobokai341.github.io');
     
     // 使用issue-number而不是issue-term
-    // 为每个日记ID创建一个固定的issue number (例如: 日记ID + 1000)
-    const issueNumber = parseInt(id) + 1000;
+    const issueNumber = parseInt(id);
     utterancesScript.setAttribute('issue-number', issueNumber);
     
     utterancesScript.setAttribute('theme', 'github-light');
