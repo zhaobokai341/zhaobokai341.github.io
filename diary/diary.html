@@ -35,6 +35,11 @@
 
     <h1><a href="https://zhaobokai341.github.io/">赵博凯</a></h1>
     <div id="$m" class="markdown-body"></div>
+    <!-- 评论区容器 -->
+    <div class="comments-section">
+        <h3>评论区</h3>
+        <div id="utterances-comments"></div>
+    </div>
     <textarea id="$t" style="display:none">
         
   </textarea>
@@ -48,23 +53,41 @@
 <script>
     const id = new URLSearchParams(window.location.search).get('id');
     
-    // 使用新的DiaryAPI类获取日记内容
+    // 动态创建Utterances脚本
+    const utterancesScript = document.createElement('script');
+    utterancesScript.src = 'https://utteranc.es/client.js';
+    utterancesScript.setAttribute('repo', 'zhaobokai341/zhaobokai341.github.io');
+    utterancesScript.setAttribute('issue-term', `diary-${id}`); // 使用日记ID作为唯一标识
+    utterancesScript.setAttribute('theme', 'github-light');
+    utterancesScript.setAttribute('crossorigin', 'anonymous');
+    utterancesScript.async = true;
+    
+    // 使用新的DiaryAPI类获取日记内容，并在加载完成后添加评论系统
     DiaryAPI.getDiaryContent(id)
         .then(data => {
             document.getElementById('$t').innerHTML = data.diary.content;
             $m.innerHTML = marked.parse($t.value);
+            // 添加评论系统到指定容器
+            document.getElementById('utterances-comments').appendChild(utterancesScript);
         })
         .catch(error => {
             console.error('获取日记内容时出错:', error);
             $m.innerHTML = '<p>加载日记内容失败，请稍后再试。</p>';
         });
 </script>
-<script src="https://utteranc.es/client.js"
-        repo="zhaobokai341/zhaobokai341.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+
+<!-- 添加评论区样式 -->
+<style>
+    .comments-section {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid #eaecef;
+    }
+    
+    .comments-section h3 {
+        margin-bottom: 1rem;
+        color: #24292e;
+    }
+</style>
 </body>
 </html>
