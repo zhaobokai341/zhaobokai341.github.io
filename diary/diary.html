@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/comments.css">
 
 
     <title>赵博凯 | 我的个人网站</title>
@@ -35,11 +36,6 @@
 
     <h1><a href="https://zhaobokai341.github.io/">赵博凯</a></h1>
     <div id="$m" class="markdown-body"></div>
-    <!-- 评论区容器 -->
-    <div class="comments-section">
-        <h3>评论区</h3>
-        <div id="utterances-comments"></div>
-    </div>
     <textarea id="$t" style="display:none">
         
   </textarea>
@@ -64,6 +60,14 @@
             $m.innerHTML = '<p>加载日记内容失败，请稍后再试。</p>';
         });
 </script>
+
+<!-- 评论区 -->
+<div class="comments-container">
+    <h3 class="comments-title">评论区</h3>
+    <p class="comments-tip">欢迎分享您的想法和建议，使用GitHub账号即可参与讨论</p>
+    <div class="giscus"></div>
+</div>
+
 <script src="https://giscus.app/client.js"
         data-repo="zhaobokai341/zhaobokai341.github.io"
         data-repo-id="R_kgDOO_h5rg"
@@ -76,6 +80,8 @@
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="zh-CN"
+        data-loading="lazy"
+        data-container="giscus"
         crossorigin="anonymous"
         async>
 </script>
