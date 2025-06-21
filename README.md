@@ -23,7 +23,7 @@
 
 ### 目录结构
 
-#### style
+#### style / css
 
 - **beautify.css**: 美化样式。
 - **dark.css**: 暗色主题样式。
@@ -31,6 +31,10 @@
 - **rainbow.css**: 彩虹主题样式。
 - **zhaobokai.css**: 个性化主题样式，使用个人照片作为半透明背景。
 - **css_select_options.css**: CSS选择器选项样式。
+
+#### css
+
+- **comments.css**: 评论区样式，包含Giscus评论系统的所有样式设置，支持响应式设计和暗色模式。
 
 #### js
 
