@@ -1,6 +1,8 @@
 function changeTheme(theme) {
-    var link = document.querySelector('link[rel="stylesheet"]');
+    let link = document.createElement('link');
+    link.rel = 'stylesheet';
     link.href = theme;
+    document.head.appendChild(link);
 }
 
 let html = `<div id="theme-menu">
