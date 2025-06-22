@@ -1,11 +1,20 @@
-// 注意：样式表现在直接在HTML文件中引入，不再动态加载
-// 这样可以确保主题切换功能正常工作
+let css_link_list = [
+    '/style/rainbow.css',
+    '/style/beautify.css',
+    '/style/css_select_options.css',
+]
 
 let js_link_list = [
     '/js/css_select.js'
 ]
 
-// 只动态加载JavaScript文件
+
+for (let i = 0; i < css_link_list.length; i++) {
+    let link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = css_link_list[i];
+    document.head.appendChild(link);
+}
 for (let i = 0; i < js_link_list.length; i++) {
     let script = document.createElement('script');
     script.src = js_link_list[i];
