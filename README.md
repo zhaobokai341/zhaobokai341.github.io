@@ -75,6 +75,8 @@
 
 #### 资源文件 (img)
 - **my_photo.jpg**: 个人照片
+- **my_photo2.jpg**: 个人照片，有点搞笑（bushi）
+- **my_photo.cur**: 鼠标样式，没什么好讲的
 - **my_qrcode.png**: 网站二维码
 
 ## 联系方式
