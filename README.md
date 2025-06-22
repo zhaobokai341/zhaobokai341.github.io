@@ -1,97 +1,95 @@
 # 赵博凯的个人网站
 
-欢迎访问[我的个人网站](https://zhaobokai341.github.io/verify.html)，这里记录了我的一些作品和日常分享。
-这个网站随时都会更新，没准这个月还是这个样子的，下个月是那个样子了。
+[![GitHub stars](https://img.shields.io/github/stars/zhaobokai341/zhaobokai341.github.io)](https://github.com/zhaobokai341/zhaobokai341.github.io/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/zhaobokai341/zhaobokai341.github.io)](https://github.com/zhaobokai341/zhaobokai341.github.io/network)
+[![GitHub issues](https://img.shields.io/github/issues/zhaobokai341/zhaobokai341.github.io)](https://github.com/zhaobokai341/zhaobokai341.github.io/issues)
+
+## 项目简介
+
+这是一个基于纯原生技术栈（HTML、CSS、JavaScript）开发的个人网站，用于展示个人作品、分享日常心得和提供实用工具。网站采用响应式设计，支持多主题切换，并集成了Markdown解析功能，为访问者提供良好的阅读体验。
+
+🌐 [立即访问](https://zhaobokai341.github.io/verify.html)
+
+## 主要功能
+
+- 📝 **日记系统**：支持Markdown格式的日记内容展示
+- 🎨 **多主题切换**：提供暗色、亮色、彩虹和个性化等多种主题
+- 🎯 **作品展示**：展示个人开发的各类项目作品
+- 🛠️ **实用工具**：提供多种在线工具
+- 💬 **评论系统**：集成Giscus评论功能
+- 📱 **响应式设计**：完美适配各种设备屏幕
+
+## 技术特点
+
+- 🚀 采用原生`HTML, CSS和JavaScript`开发，无框架依赖
+- 📖 使用`marked.js`解析Markdown内容
+- 🎨 支持多主题动态切换：
+  - 🌙 暗色主题：适合夜间阅读
+  - ☀️ 亮色主题：清爽简洁
+  - 🌈 彩虹主题：缤纷多彩
+  - 🖼️ 个性化主题：使用个人照片作为半透明背景
+- 📊 主要采用静态部署，评论功能需要Giscus后端支持
+- 🔧 部署简便，主要功能仅需基本Web服务器环境
 
 ## 项目结构
 
-### 根目录
+### 根目录文件
 
-- **README.md**: 项目的说明文档。
-- **home.html**: 首页。
-- **my_diary.html**: 日记主页面。
-- **my_opus.html**: 作品页面。
-- **tool.html**: 工具页面。
-- **update.html**: 更新页面。
-- **question.html**: 问题页面。
-- **zhaobokai.html**: 赵博凯自我介绍页面。
-- **verify.html**: 验证页面。
-- **test.html**, **test2.html**, **test.js**: 测试文件。
-- **favicon.ico**: 网站图标。
-- **robots.txt**: 搜索引擎爬虫配置文件。
-- **package.json**: 项目配置文件。
+- **README.md**: 项目说明文档
+- **home.html**: 首页
+- **my_diary.html**: 日记主页面
+- **my_opus.html**: 作品页面
+- **tool.html**: 工具页面
+- **update.html**: 更新页面
+- **question.html**: 问题页面
+- **zhaobokai.html**: 个人介绍页面
+- **verify.html**: 验证页面
+- **favicon.ico**: 网站图标
+- **robots.txt**: 搜索引擎爬虫配置
+- **package.json**: 项目配置文件
 
-### 目录结构
+### 核心目录
 
-#### style / css
+#### 样式文件 (style / css)
+- **beautify.css**: 美化样式
+- **dark.css**: 暗色主题
+- **white.css**: 亮色主题
+- **rainbow.css**: 彩虹主题
+- **zhaobokai.css**: 个性化主题
+- **comments.css**: 评论区样式
 
-- **beautify.css**: 美化样式。
-- **dark.css**: 暗色主题样式。
-- **white.css**: 亮色主题样式。
-- **rainbow.css**: 彩虹主题样式。
-- **zhaobokai.css**: 个性化主题样式，使用个人照片作为半透明背景。
-- **css_select_options.css**: CSS选择器选项样式。
+#### 脚本文件 (js)
+- **main.js**: 核心功能实现
+- **marked.js**: Markdown解析
+- **css_select.js**: 主题切换
+- **diary_api.js**: 日记功能
 
-#### css
+#### 内容目录 (diary)
+- **content/**: Markdown格式日记
+- **dongxi/**: 多媒体资源
+- 配置文件: github.json, python.json等
 
-- **comments.css**: 评论区样式，包含Giscus评论系统的所有样式设置，支持响应式设计和暗色模式。
+#### 作品展示 (opus)
+- 展示页面: 210.html, 211.html等
+- 下载文件: 21.zip, 22.zip等
 
-#### js
+#### 资源文件 (img)
+- **my_photo.jpg**: 个人照片
+- **my_qrcode.png**: 网站二维码
 
-- **main.js**: 主要JavaScript文件。
-- **marked.js**: Markdown解析器。
-- **css_select.js**: CSS选择器脚本。
-- **diary_api.js**: 日记API处理脚本。
+## 联系方式
 
-#### diary
+- 📧 网易邮箱：13935190240@163.com
+- 📺 B站账号：[编程博凯](https://space.bilibili.com/1458747461)
+- 🐱 Github：[zhaobokai341](https://github.com/zhaobokai341)
 
-- **diary.html**: 日记页面。
-- **diary_title.html**: 日记标题页面。
-- **diary_api.html**: 日记API页面。
-- **content/**: 日记内容目录，包含多个Markdown文件（11.md, 12.md等）。
-- **dongxi/**: 日记相关资源目录，包含图片和视频文件。
-  - **112/**: 包含编程相关图片和视频
-  - **152/**: 包含工具演示视频
-  - **154/**: 包含其他图片资源
-- **github.json**, **python.json**, **HTML&CSS&JS.json**, **other.json**: 日记分类数据文件。
+## 快速访问
 
-#### opus
-
-- 多个HTML文件和ZIP压缩包，用于作品展示和下载。
-- **210.html**, **211.html**: 作品展示页面。
-- **21.zip**, **22.zip**, **23.zip**等: 作品下载文件。
-- **26.cmd**: 命令脚本。
-
-#### img
-
-- **my_photo.jpg**: 个人照片，也用作个性化主题背景。
-- **my_photo2.jpg**: 个人鬼畜照片。
-- **my_qrcode.png**: 个人网站二维码。
-
-# 技术特点
-
-- 采用原生`HTML, CSS和JavaScript`开发，没有使用Vue.js、React.js或其他前端框架，纯原生实现。
-- 支持Markdown格式的日记内容（使用marked.js解析）。
-- 提供多种主题切换功能：
-  - 暗色主题：适合夜间阅读
-  - 亮色主题：清爽简洁
-  - 彩虹主题：缤纷多彩
-  - 个性化主题：使用个人照片作为半透明背景，比较搞笑（bushi）
-- 纯静态前端项目，无需后端支持。
-- 简单易部署，只需要基本的Web服务器环境。
-
-# 联系我
-
-如果你有任何问题或建议，请通过以下方式联系我：
-
-- 网易邮箱：13935190240@163.com
-- B站私信：[编程博凯](https://space.bilibili.com/1458747461)
-- Github：[zhaobokai341](https://github.com/zhaobokai341)
-
-扫描下方二维码，可以快速访问我的个人网站：
+扫描下方二维码，即可访问个人网站：
 
 ![个人网站二维码](img/my_qrcode.png)
 
+🔗 [https://zhaobokai341.github.io/verify.html](https://zhaobokai341.github.io/verify.html)
 
-个人网站[https://zhaobokai341.github.io/verify.html](https://zhaobokai341.github.io/verify.html)  
-喜欢的就来个Star吧！😊😊😊
+---
+如果你觉得这个项目不错，欢迎点个 ⭐Star 支持一下！
