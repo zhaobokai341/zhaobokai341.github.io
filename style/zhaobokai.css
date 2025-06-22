@@ -8,6 +8,7 @@ body {
     background-repeat: repeat;
     background-attachment: fixed;
     position: relative;
+    cursor: url('../img/my_photo.cur'), auto; /* 默认光标样式 */
 }
 
 
@@ -24,10 +25,17 @@ a {
     color: #ff69b4;
     text-decoration: none;
     transition: color 0.3s ease;
+    cursor: url('../img/my_photo2.cur'), pointer; /* 链接光标样式 */
 }
 
 a:hover {
     color: #ff1493;
+    cursor: url('../img/my_photo2.cur'), pointer; /* 链接悬停光标样式 */
+}
+
+/* 确保点击时也使用自定义光标 */
+a:active {
+    cursor: url('../img/my_photo2.cur'), pointer;
 }
 
 /* 标题样式 */
