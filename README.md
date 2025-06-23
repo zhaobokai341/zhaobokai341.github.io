@@ -66,7 +66,7 @@
 
 #### 内容目录 (diary)
 - **content/**: Markdown格式日记
-- **dongxi/**: 多媒体资源
+- **media/**: 多媒体资源
 - 配置文件: github.json, python.json等
 
 #### 作品展示 (opus)
