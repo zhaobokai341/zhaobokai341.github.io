@@ -8,6 +8,12 @@ let js_link_list = [
     '/js/css_select.js'
 ]
 
+document.addEventListener("DOMContentLoaded", function() {
+    var images = document.querySelectorAll("img");
+    images.forEach(function(img) {
+        img.setAttribute("loading", "lazy");
+    });
+});
 
 for (let i = 0; i < css_link_list.length; i++) {
     let link = document.createElement('link');
@@ -20,3 +26,4 @@ for (let i = 0; i < js_link_list.length; i++) {
     script.src = js_link_list[i];
     document.head.appendChild(script);
 }
+
