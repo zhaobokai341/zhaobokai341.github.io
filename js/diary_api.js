@@ -12,29 +12,9 @@ class DiaryAPI {
      * @returns {Promise<Object>} - 返回包含日记列表的Promise，格式为 {diary: Array}
      */
     static async getDiaryList(type) {
-        let fileName;
-        
-        // 根据类型确定要获取的JSON文件
-        switch (type) {
-            case 'github':
-                fileName = 'github.json';
-                break;
-            case 'htmlcssjs':
-                fileName = 'HTML&CSS&JS.json';
-                break;
-            case 'python':
-                fileName = 'python.json';
-                break;
-            case 'other':
-                fileName = 'other.json';
-                break;
-            default:
-                throw new Error('未知的日记类型');
-        }
-        
         try {
             // 获取JSON文件
-            const response = await fetch(`../diary/${fileName}`);
+            const response = await fetch(`/json/diary_json.json`);
             if (!response.ok) {
                 throw new Error(`HTTP错误! 状态: ${response.status}`);
             }
@@ -44,7 +24,7 @@ class DiaryAPI {
             
             // 返回与原PHP文件相同格式的数据
             return {
-                diary: data
+                diary: data['diary'][type]
             };
         } catch (error) {
             console.error('获取日记列表时出错:', error);
