@@ -41,16 +41,7 @@
 <script>anchors.add();</script>
 <script src="../js/diary_api.js"></script>
 <script>
-    // 获取并解码URL参数，处理包含特殊字符(&)的参数
-    let type;
-    const urlParams = window.location.search.substring(1).split('&');
-    for (const param of urlParams) {
-        const [key, value] = param.split('=');
-        if (key === 'type') {
-            type = decodeURIComponent(value);
-            break;
-        }
-    }
+    const type = new URLSearchParams(window.location.search).get('type');
     
     let div = document.getElementById('container-lg px-3 my-5 markdown-body');
     
@@ -61,11 +52,13 @@
             let diary_url = 'diary.html?id=';
             div.innerHTML += `<h1>${type}</h1>`;
             
-            // 直接使用content作为日记数组
+            // 获取当前类型的日记数组
+            const diaryArray = content[Object.keys(content)[0]];
+            
             // 遍历日记数组并显示标题和链接
-            for (let i = 0; i < content.length; i++) {
-                let title = content[i]['title'];
-                let id = content[i]['id'];
+            for (let i = 0; i < diaryArray.length; i++) {
+                let title = diaryArray[i]['title'];
+                let id = diaryArray[i]['id'];
                 div.innerHTML += `<a href="${diary_url + id}" target="_blank">${title}</a>`;
                 div.innerHTML += '<br>';
             }
