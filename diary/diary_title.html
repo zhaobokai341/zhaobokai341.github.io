@@ -42,12 +42,6 @@
 <script src="../js/diary_api.js"></script>
 <script>
     const type = new URLSearchParams(window.location.search).get('type');
-    const type_list = {
-        'github': 'Github',
-        'htmlcssjs': 'HTML&CSS&JS',
-        'python': 'Python',
-        'other': '其他'
-    }
     
     let div = document.getElementById('container-lg px-3 my-5 markdown-body');
     
@@ -56,7 +50,7 @@
         .then(data => {
             let content = data.diary;
             let diary_url = 'diary.html?id=';
-            div.innerHTML += `<h1>${type_list[type]}</h1>`;
+            div.innerHTML += `<h1>${type}</h1>`;
             content = content.diary;
             for (let i = 0; i < content.length; i++) {
                 let title = content[i]['title'];
