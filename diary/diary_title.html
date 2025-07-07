@@ -53,8 +53,8 @@
             div.innerHTML += `<h1>${type}</h1>`;
             content = content.diary;
             for (let i = 0; i < content.length; i++) {
-                let title = content[i]['title'];
-                let id = content[i]['id'];
+                let title = content[type][i]['title'];
+                let id = content[type][i]['id'];
                 div.innerHTML += `<a href="${diary_url + id}" target="_blank">${title}</a>`;
                 div.innerHTML += '<br>';
             }
