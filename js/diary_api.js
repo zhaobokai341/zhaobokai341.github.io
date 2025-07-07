@@ -16,7 +16,7 @@ class DiaryAPI {
             case 'github':
                 type = 0;
                 break;
-            case 'htmlcssjs':
+            case 'HTML&CSS&JS':
                 type = 1;
                 break;
             case 'python':
