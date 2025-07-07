@@ -51,10 +51,14 @@
             let content = data.diary;
             let diary_url = 'diary.html?id=';
             div.innerHTML += `<h1>${type}</h1>`;
-            content = content.diary;
-            for (let i = 0; i < content.length; i++) {
-                let title = content[type][i]['title'];
-                let id = content[type][i]['id'];
+            
+            // 获取当前类型的日记数组
+            const diaryArray = content[Object.keys(content)[0]];
+            
+            // 遍历日记数组并显示标题和链接
+            for (let i = 0; i < diaryArray.length; i++) {
+                let title = diaryArray[i]['title'];
+                let id = diaryArray[i]['id'];
                 div.innerHTML += `<a href="${diary_url + id}" target="_blank">${title}</a>`;
                 div.innerHTML += '<br>';
             }
