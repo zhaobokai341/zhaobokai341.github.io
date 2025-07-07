@@ -41,7 +41,16 @@
 <script>anchors.add();</script>
 <script src="../js/diary_api.js"></script>
 <script>
-    const type = new URLSearchParams(window.location.search).get('type');
+    // 获取并解码URL参数，处理包含特殊字符(&)的参数
+    let type;
+    const urlParams = window.location.search.substring(1).split('&');
+    for (const param of urlParams) {
+        const [key, value] = param.split('=');
+        if (key === 'type') {
+            type = decodeURIComponent(value);
+            break;
+        }
+    }
     
     let div = document.getElementById('container-lg px-3 my-5 markdown-body');
     
