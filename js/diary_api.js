@@ -12,6 +12,20 @@ class DiaryAPI {
      * @returns {Promise<Object>} - 返回包含日记列表的Promise，格式为 {diary: Array}
      */
     static async getDiaryList(type) {
+        switch (type) {
+            case 'github':
+                type = 0;
+                break;
+            case 'htmlcssjs':
+                type = 1;
+                break;
+            case 'python':
+                type = 2;
+                break;
+            case 'other':
+                type = 3;
+                break;
+        }
         try {
             // 获取JSON文件
             const response = await fetch(`/json/diary_json.json`);
