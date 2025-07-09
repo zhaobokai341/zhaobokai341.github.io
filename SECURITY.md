@@ -1,21 +1,50 @@
-# Security Policy
+# 安全政策
 
-## Supported Versions
+## 支持的版本
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+以下是当前接受安全更新的项目版本：
 
-| Version | Supported          |
+| 版本 | 支持状态 |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.2.x   | :white_check_mark: |
+| 1.1.x   | :white_check_mark: |
+| 1.0.x   | :x:                |
+| < 1.0   | :x:                |
 
-## Reporting a Vulnerability
+## 报告安全漏洞
 
-Use this section to tell people how to report a vulnerability.
+如果您发现了安全漏洞，请不要在公开的GitHub issues中报告它们。相反，请通过以下方式直接联系项目维护者：
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+1. 发送电子邮件至 [13935190240@163.com](mailto:13935190240@163.com)，主题前缀为"[安全漏洞]"
+2. 在邮件中详细描述漏洞，包括：
+   - 漏洞的详细描述
+   - 复现漏洞的步骤
+   - 可能的影响范围
+   - 如果有的话，建议的修复方案
+
+## 响应时间
+
+- 我们会在收到报告后的48小时内确认收到
+- 我们会在确认漏洞后的几小时至几天内提供初步评估
+- 根据漏洞的严重程度，我们会尽快发布修复版本
+
+## 漏洞处理流程
+
+1. 收到漏洞报告
+2. 确认漏洞并评估其严重性
+3. 开发修复方案
+4. 发布安全更新
+5. 在修复发布后，公开披露漏洞信息（除非有特殊情况）
+
+## 致谢
+
+我们感谢所有负责任地报告安全漏洞的研究人员和用户。如果您希望在我们的安全致谢名单中被提及，请在报告中注明。
+
+## 安全最佳实践
+
+作为本项目的用户，我们建议您：
+
+1. 定期更新到最新版本
+2. 不要在公开场合分享您的敏感信息
+3. 使用HTTPS访问网站
+4. 定期检查项目的安全公告
