@@ -128,7 +128,7 @@
 
 ![个人网站二维码](img/my_qrcode.png)
 
-🌐 [网站链接](https://zhaobokai341.github.io/verify.html)
+🌐 网站链接[https://zhaobokai341.github.io/verify.html](https://zhaobokai341.github.io/verify.html)
 
 ---
 球球点个Star⭐，谢谢啦！
