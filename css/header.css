@@ -6,6 +6,12 @@
     border-radius: 50px;
     background-color: whitesmoke;
 }
+#header .disable{
+    background-color: grey;
+}
+#header .disable:hover{
+    cursor: not-allowed;
+}
 #header li a{
     width: 100px;
     line-height: 60px;
@@ -17,8 +23,4 @@
 }
 #header li a:hover{
     background-color: #ff6700;
-}
-
-#header .disable:hover{
-    cursor: not-allowed;
 }
