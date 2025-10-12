@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>验证</title>
+    </head>
+    <body>
+        <p>这里不能让动物进入，请输入下面算式的答案，最多保留四位小数，然后点击“验证”</p>
+        <p>请输入验证码</p>
+        <div id="captcha" style="position: relative;">
+            <label id="captcha-text"></label>
+            <input type="text" id="captcha-input" style="display:block; margin:10px">
+            <button onclick="verify()">验证</button>
+        </div>
+        <script>
+            class MathProblemGenerator {
+            _random(min, max) {
+                return parseFloat((Math.floor(Math.random() * (max - min + 1)) + min).toFixed(4));
+            }
+
+            _toFixed4(num) {
+                return parseFloat(num.toFixed(4));
+            }
+
+            generateArithmetic() {
+                const a = this._random(1000, 100000);
+                const b = this._random(1000, 100000);
+                const ops = ['+', '-', '*', '/'];
+                const op = ops[Math.floor(Math.random() * ops.length)];
+                const question = `${this._toFixed4(a)} ${op} ${this._toFixed4(b)} = ?`;
+                let answer;
+
+                switch (op) {
+                case '+':
+                    answer = this._toFixed4(a + b);
+                    break;
+                case '-':
+                    answer = this._toFixed4(a - b);
+                    break;
+                case '*':
+                    answer = this._toFixed4(a * b);
+                    break;
+                case '/':
+                    answer = this._toFixed4(a / b);
+                    break;
+                }
+
+                return { question, answer };
+            }
+
+            generateFraction() {
+                const n1 = this._random(1, 100);
+                const d1 = this._random(2, 100);
+                const n2 = this._random(1, 100);
+                const d2 = this._random(2, 100);
+                const ops = ['+', '-', '*', '/'];
+                const op = ops[Math.floor(Math.random() * ops.length)];
+
+                const question = `(${this._toFixed4(n1)}/${this._toFixed4(d1)}) ${op} (${this._toFixed4(n2)}/${this._toFixed4(d2)}) = ?`;
+                let answer;
+
+                switch (op) {
+                case '+':
+                    const commonDen = d1 * d2;
+                    const newN1 = n1 * d2;
+                    const newN2 = n2 * d1;
+                    const sumN = newN1 + newN2;
+                    answer = this._toFixed4(sumN / commonDen);
+                    break;
+                case '-':
+                    const commonDen_sub = d1 * d2;
+                    const newN1_sub = n1 * d2;
+                    const newN2_sub = n2 * d1;
+                    const subN = newN1_sub - newN2_sub;
+                    answer = this._toFixed4(subN / commonDen_sub);
+                    break;
+                case '*':
+                    const mulN = n1 * n2;
+                    const mulD = d1 * d2;
+                    answer = this._toFixed4(mulN / mulD);
+                    break;
+                case '/':
+                    const divN = n1 * d2;
+                    const divD = d1 * n2;
+                    answer = this._toFixed4(divN / divD);
+                    break;
+                }
+
+                return { question, answer };
+            }
+
+            generatePercentage() {
+                const base = this._random(1000, 100000);
+                const percent = this._random(1, 100);
+                const question = `计算 ${this._toFixed4(base)} 的 ${this._toFixed4(percent)}% 是多少？`;
+                const decimal = this._toFixed4(percent / 100);
+                const answer = this._toFixed4(base * decimal);
+
+                return { question, answer };
+            }
+
+            generateExponent() {
+                const base = this._random(3, 20);
+                const exp = this._random(2, 5);
+                const question = `计算 ${this._toFixed4(base)}^${this._toFixed4(exp)} (即 ${this._toFixed4(base)} 的 ${this._toFixed4(exp)} 次方) 是多少？`;
+                const answer = this._toFixed4(Math.pow(base, exp));
+
+                return { question, answer };
+            }
+
+            generateCalculusDerivative() {
+                const a = this._toFixed4(this._random(1, 10));
+                const b = this._toFixed4(this._random(1, 10));
+                const c = this._toFixed4(this._random(1, 10));
+                const question = `求函数 f(x) = ${a}x^2 + ${b}x + ${c} 的导数 f'(x)`;
+                
+                const answer = `f'(x) = ${this._toFixed4(a * 2)}x + ${b}`;
+
+                return { question, answer };
+            }
+
+            generateCalculusIntegral() {
+                const a = this._toFixed4(this._random(1, 10));
+                const b = this._toFixed4(this._random(1, 10));
+                const question = `求函数 f(x) = ${a}x^2 + ${b}x 的不定积分 ∫f(x)dx`;
+                
+                const answer = `F(x) = ${this._toFixed4(a / 3)}x^3 + ${this._toFixed4(b / 2)}x^2 + C`;
+
+                return { question, answer };
+            }
+
+            generateRandomProblem() {
+                const problemTypes = [
+                'generateArithmetic',
+                'generateFraction',
+                'generatePercentage',
+                'generateExponent',
+                'generateCalculusDerivative',
+                'generateCalculusIntegral'
+                ];
+                const randomType = problemTypes[Math.floor(Math.random() * problemTypes.length)];
+                return this[randomType]();
+            }
+            }
+        </script>
+        <script>
+            function verify(){
+                input = document.getElementById('captcha-input').value;
+                if(input == captcha_answer){
+                    alert('验证成功');
+                    window.location.href = 'home.html';
+                }else{
+                    alert('验证失败');
+                }
+            }
+            var captcha_text = document.getElementById('captcha-text');
+            var problem_unshow = [NaN, Infinity, -Infinity];
+            while(1) {
+                var generator = new MathProblemGenerator();
+                var problem = generator.generateRandomProblem();
+                if(typeof problem.answer === 'number' && !problem_unshow.includes(problem.answer)) {
+                    break;
+                }
+            }
+            captcha_text.innerHTML = problem.question + ":";
+            setInterval(function(){
+                var captcha_div = document.getElementById('captcha');
+                captcha_div.style.left = Math.random() * 1000 + 'px';
+                captcha_div.style.top = Math.random() * 1000 + 'px';
+            }, 1000)
+        </script>
+    </body>
+</html>

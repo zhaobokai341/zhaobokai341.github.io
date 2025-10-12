@@ -1,3 +1,3 @@
 # zhaobokai341.github.io
 
-网站正在重构
+[https://zhaobokai341.github.io/verify.html](https://zhaobokai341.github.io/verify.html)
