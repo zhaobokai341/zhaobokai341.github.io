@@ -5,13 +5,14 @@
         <title>验证</title>
     </head>
     <body>
-        <p>这里不能让动物进入，请输入下面算式的答案，最多保留四位小数，然后点击“验证”</p>
+        <p>这里不能让低级动物进入，请输入下面算式的答案，最多保留四位小数，然后点击“验证”</p>
         <p>请输入验证码</p>
         <div id="captcha" style="position: relative;">
             <label id="captcha-text"></label>
             <input type="text" id="captcha-input" style="display:block; margin:10px">
-            <button onclick="verify()">验证</button>
+            <button onclick="verify();">验证</button>
         </div>
+        <button onclick="alert('恭喜通过[doge]');window.location.href = 'home.html';" style="width: 1000px; height: 300px;">我要投降</button>
         <script>
             class MathProblemGenerator {
             _random(min, max) {
@@ -145,8 +146,8 @@
         </script>
         <script>
             function verify(){
-                input = document.getElementById('captcha-input').value;
-                if(input == captcha_answer){
+                var input = document.getElementById('captcha-input').value;
+                if(input == problem.answer){
                     alert('验证成功');
                     window.location.href = 'home.html';
                 }else{
