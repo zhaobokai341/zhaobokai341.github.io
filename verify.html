@@ -50,10 +50,10 @@
             }
 
             generateFraction() {
-                const n1 = this._random(1, 100);
-                const d1 = this._random(2, 100);
-                const n2 = this._random(1, 100);
-                const d2 = this._random(2, 100);
+                const n1 = this._random(1000, 100000);
+                const d1 = this._random(2000, 100000);
+                const n2 = this._random(1000, 100000);
+                const d2 = this._random(2000, 100000);
                 const ops = ['+', '-', '*', '/'];
                 const op = ops[Math.floor(Math.random() * ops.length)];
 
@@ -91,7 +91,7 @@
             }
 
             generatePercentage() {
-                const base = this._random(1000, 100000);
+                const base = this._random(100000, 10000000);
                 const percent = this._random(1, 100);
                 const question = `计算 ${this._toFixed4(base)} 的 ${this._toFixed4(percent)}% 是多少？`;
                 const decimal = this._toFixed4(percent / 100);
@@ -101,8 +101,8 @@
             }
 
             generateExponent() {
-                const base = this._random(3, 20);
-                const exp = this._random(2, 5);
+                const base = this._random(100, 1000);
+                const exp = this._random(10, 100);
                 const question = `计算 ${this._toFixed4(base)}^${this._toFixed4(exp)} (即 ${this._toFixed4(base)} 的 ${this._toFixed4(exp)} 次方) 是多少？`;
                 const answer = this._toFixed4(Math.pow(base, exp));
 
